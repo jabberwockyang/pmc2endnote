@@ -12,34 +12,6 @@ PMC Pro是一个一站式解决方案，用于下载PMC文章并生成带有EndN
 - **主RIS文件管理**：自动将所有引用合并到一个主RIS文件，方便一次性导入EndNote
 - **重复引用检测**：自动检测并清理重复的引用记录，保留最新版本
 
-## 安装说明
-
-### 前提条件
-
-- Python 3.6或更高版本
-- pip包管理器
-
-### 安装步骤
-
-1. 克隆仓库：
-
-```bash
-git clone https://github.com/yourusername/pmc-pro.git
-cd pmc-pro
-```
-
-2. 安装依赖项：
-
-```bash
-pip install -r requirements.txt
-```
-
-或手动安装所需包：
-
-```bash
-pip install loguru lxml python-docx beautifulsoup4 requests tqdm
-```
-
 ## 使用方法
 
 ### 基本用法
