@@ -1,0 +1,696 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">100941354</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21750</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Immunol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Immunol.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature immunology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1529-2908</issn>
+      <issn pub-type="epub">1529-2916</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">32066954</article-id>
+      <article-id pub-id-type="pmc">7096285</article-id>
+      <article-id pub-id-type="doi">10.1038/s41590-020-0607-7</article-id>
+      <article-id pub-id-type="manuscript">NIHMS1550331</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Developmental plasticity allows outside-in immune responses by resident memory T cells</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fonseca</surname>
+            <given-names>Raissa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref rid="FN1" ref-type="author-notes">+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Beura</surname>
+            <given-names>Lalit K</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref rid="FN1" ref-type="author-notes">+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Quarnstrom</surname>
+            <given-names>Clare F</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref rid="FN1" ref-type="author-notes">+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ghoneim</surname>
+            <given-names>Hazem E</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fan</surname>
+            <given-names>Yiping</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zebley</surname>
+            <given-names>Caitlin C</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scott</surname>
+            <given-names>Milcah C</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fares-Frederickson</surname>
+            <given-names>Nancy J</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wijeyesinghe</surname>
+            <given-names>Sathi</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thompson</surname>
+            <given-names>Emily A</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>da Silva</surname>
+            <given-names>Henrique Borges</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vezys</surname>
+            <given-names>Vaiva</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Youngblood</surname>
+            <given-names>Benjamin</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Masopust</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref rid="CR1" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Department of Microbiology and Immunology, Center for Immunology, University of Minnesota Medical School, Minneapolis MN, 55455. USA.</aff>
+      <aff id="A2"><label>2</label>Department of Immunology, St. Jude Children&#x2019;s Research Hospital, Memphis, TN 38105. USA.</aff>
+      <aff id="A3"><label>3</label>The Department of Computational Biology, St. Jude Children&#x2019;s Research Hospital, Memphis, TN 38105, USA</aff>
+      <aff id="A4"><label>4</label>Department of Laboratory Medicine and Pathology, Center for Immunology, University of Minnesota Medical School, Minneapolis, MN, 55455. USA.</aff>
+      <aff id="A5"><label>5</label>Present address-Department of Microbiology and Immunology, The University of Melbourne and The Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia.</aff>
+      <aff id="A6"><label>6</label>Present address-Department of Molecular Microbiology and Immunology, Brown University, Providence, RI, 02912. USA.</aff>
+      <aff id="A7"><label>7</label>Present address-Department of Microbial Infection and Immunity, College of Medicine, the Ohio State University, Columbus, OH 43210, USA.</aff>
+      <author-notes>
+        <fn fn-type="equal" id="FN1">
+          <label>+</label>
+          <p id="P1">Equal contribution</p>
+        </fn>
+        <fn id="FN2">
+          <p id="P2">Author Contributions</p>
+          <p id="P3">RF, LKB, CFQ, NJF-F, SW, EAT and HBS performed and analyzed experiments; HEG and YF performed and analyzed WGBS; CCZ, MCS conducted bioinformatics analysis; RF, LKB, CFQ, NJF, VV, BY, and DM designed experiments and prepared the manuscript; DM was responsible for research supervision, coordination and strategy.</p>
+        </fn>
+        <corresp id="CR1"><label>*</label>Corresponding author</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>3</day>
+        <month>2</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>2</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>4</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>17</day>
+        <month>8</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>4</issue>
+      <fpage>412</fpage>
+      <lpage>421</lpage>
+      <!--elocation-id from pubmed: 10.1038/s41590-020-0607-7-->
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<uri xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+        </license>
+      </permissions>
+      <abstract id="ABS1">
+        <p id="P4">Central memory T (T<sub>CM</sub>) cells patrol lymph nodes and perform conventional memory responses upon re-stimulation: proliferation, migration, and differentiation into diverse T cell subsets while also self-renewing. Resident memory T (T<sub>RM</sub>) cells are parked within single organs, share properties with terminal effectors, and contribute to rapid host protection. We observed that reactivated T<sub>RM</sub> cells rejoined the circulating pool. Epigenetic analyses revealed that T<sub>RM</sub> cells align closely with conventional memory T cell populations, bearing little resemblance to recently activated effectors. Fully differentiated T<sub>RM</sub> cells isolated from small intestine epithelium exhibited the potential to differentiate into T<sub>CM</sub>, T<sub>EM</sub>, and T<sub>RM</sub> cells upon recall. Ex-T<sub>RM</sub> cells, former intestinal T<sub>RM</sub> that rejoined the circulating pool, heritably maintained a predilection for homing back to their tissue of origin upon subsequent reactivation and a heightened capacity to re-differentiate into T<sub>RM</sub> cells. Thus, T<sub>RM</sub> cells can rejoin the circulation but are advantaged to re-form local T<sub>RM</sub> when called upon.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="S1">
+      <title>Introduction</title>
+      <p id="P5">Antigen-specific CD8<sup>+</sup> T cells protect mammalian hosts from intracellular infections. The extensive repertoire of T cells needed to protect the host from a variety of foreign antigens limits naive cell clonal abundance<sup><xref rid="R1" ref-type="bibr">1</xref></sup>. Naive T cell recirculation is thus restricted to secondary lymphoid organs (SLOs), facilitating its encounter with cognate antigen presented by antigen presenting cells<sup><xref rid="R2" ref-type="bibr">2</xref></sup>. After activation, CD8<sup>+</sup> T cells proliferate to become numerically relevant and migrate outwards to nonlymphoid tissues to seek infected cells<sup><xref rid="R3" ref-type="bibr">3</xref></sup>. After a return to homeostasis, clonally expanded memory T cells (relative to their naive predecessors) are left behind, and persist in lymphoid and nonlymphoid tissues, providing enhanced protection against subsequent infections<sup><xref rid="R4" ref-type="bibr">4</xref>&#x2013;<xref rid="R8" ref-type="bibr">8</xref></sup>.</p>
+      <p id="P6">Memory T cells are functionally specialized and often partitioned into putatively discrete subsets with uncertain developmental relationships<sup><xref rid="R9" ref-type="bibr">9</xref>&#x2013;<xref rid="R13" ref-type="bibr">13</xref></sup>. Like naive T cells, T<sub>CM</sub> recirculate amongst lymph nodes (LNs), and when reactivated, fulfill the canonical properties of self-driven expansion, differentiation into diverse T cell types, and acquisition of new homing properties<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R14" ref-type="bibr">14</xref></sup>. Effector memory T cells (T<sub>EM</sub>) are a heterogeneous population that patrols blood<sup><xref rid="R12" ref-type="bibr">12</xref>,<xref rid="R15" ref-type="bibr">15</xref></sup>. Immune surveillance of nonlymphoid tissues is mostly assumed by T<sub>RM</sub> that park within tissues during the effector phase of the response<sup><xref rid="R16" ref-type="bibr">16</xref>&#x2013;<xref rid="R19" ref-type="bibr">19</xref></sup>. T<sub>RM</sub> act as first responders against local reinfection and accelerate pathogen control<sup><xref rid="R7" ref-type="bibr">7</xref>,<xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R21" ref-type="bibr">21</xref></sup>. Indeed, they share many properties with recently activated effector T cells, supporting that they may constitute a terminally differentiated population<sup><xref rid="R11" ref-type="bibr">11</xref>,<xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref></sup>.</p>
+      <p id="P7">In summary, in the event of reinfection at barrier sites, immune organisms have an opportunity for local control by T<sub>RM</sub> cells. If that immunity fails, the recall response can be modeled as a faster recapitulation of a primary response, originating in LNs, but being driven by T<sub>CM</sub> instead of naive T cells. This can be visualized as an &#x2018;inside-out&#x2019; model, where immune responses originate inside LNs and migrate out toward peripheral tissues. This model fails to capture the observation that T<sub>RM</sub> cells proliferate<sup><xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R25" ref-type="bibr">25</xref></sup> and contribute to durable expansion of the local memory population in response to antigen restimulation<sup><xref rid="R26" ref-type="bibr">26</xref></sup>. Here, we show that re-stimulated T<sub>RM</sub> cells undergo retrograde migration, exhibit developmental plasticity, join the circulation, give rise to T<sub>CM</sub> and T<sub>EM</sub> cells, yet retain biased homing and T<sub>RM</sub> differentiation potential. Collectively, this supports a new &#x2018;outside-in&#x2019; model of protective immunity.</p>
+    </sec>
+    <sec id="S2">
+      <title>Results</title>
+      <sec id="S3">
+        <title>Local reactivation of T<sub>RM</sub> precipitates egress to circulation</title>
+        <p id="P8">To assess whether local reactivation of T<sub>RM</sub> cells precipitates egress to circulation, we generated C57BL/6J mice that contained CD90.1<sup>+</sup> OT-I T<sub>RM</sub> cells within skin through Vesicular stomatitis virus expressing ovalbumin (VSVova) viral infection (OT-I chimeras, see <xref ref-type="sec" rid="S10">Methods</xref>). After viral clearance, skin was engrafted onto infection matched CD45.1<sup>+</sup> OT-I immune chimeric C57BL/6J mice. 30 days later, we reactivated T<sub>RM</sub> cells within the skin graft by injecting SIINFEKL peptide, which is recognized by OT-I T cells (<xref rid="F1" ref-type="fig">Fig. 1a</xref>). 2&#x2013;3 weeks later, displaced residents were observed within the draining lymph node, and circulating T<sub>CM</sub> and T<sub>EM</sub> cells were observed in distant lymph nodes (<xref rid="F1" ref-type="fig">Fig. 1b</xref>), suggesting that reactivated T<sub>RM</sub> may give rise to T<sub>RM</sub>, T<sub>EM</sub>, and T<sub>CM</sub> cells.</p>
+        <p id="P9">To further test T<sub>RM</sub> retrograde migration and plasticity, we depleted CD90.1<sup>+</sup> circulating T<sub>EM</sub> and T<sub>CM</sub> from OT-I chimeras via titrated injection of depleting anti-CD90.1 antibody (which depletes circulating cells while sparing many T<sub>RM</sub> cells<sup><xref rid="R27" ref-type="bibr">27</xref></sup>). As a control, these mice were seeded with an independent population of undepleted CD90.1<sup>&#x2013;</sup>CD45.1<sup>+</sup> circulating OT-I memory T cells. Mice were then challenged with SIINFEKL peptide in the skin (<xref rid="F1" ref-type="fig">Fig. 1c</xref>). 10 days later, CD90.1<sup>+</sup> OT-I appeared in the blood, and many of these cells transiently retained a phenotype that distinguish skin T<sub>RM</sub> from circulating T<sub>CM</sub> and T<sub>EM</sub> (CD103<sup>+</sup> CD49a<sup>hi</sup>Ly6C<sup>lo</sup>) and exhibited other properties shared by T<sub>RM</sub> and long lived T<sub>EM</sub>, including lack of KLRG1 and CD62L expression (<xref rid="F1" ref-type="fig">Fig. 1d</xref> and <xref rid="F1" ref-type="fig">e</xref>). We performed similar experiments, except T<sub>RM</sub> were reactivated in the female reproductive tract (FRT) (<xref rid="F1" ref-type="fig">Fig. 1f</xref>). Ex-T<sub>RM</sub> appeared in blood within 10 days, and these cells bore marks reminiscent of mucosal T<sub>RM</sub>, including slight underexpression of CD44 and Ly6C relative to circulating memory T cells (<xref rid="F1" ref-type="fig">Fig. 1g</xref>). These observations suggest that T<sub>RM</sub> cells exhibit migrational plasticity and undergo retrograde migration after re-stimulation.</p>
+        <p id="P10">It was previously reported that antigen rechallenge at barrier sites induced CD69<sup>+</sup> T<sub>RM</sub> within draining lymph nodes and that these cells had emigrated from the upstream nonlymphoid tissue<sup><xref rid="R28" ref-type="bibr">28</xref></sup>. Here, we transferred naive P14 CD8<sup>+</sup> T cells to naive mice, and infected recipients with Lymphocytic choriomeningitis virus (LCMV, Armstrong strain) intraperitoneally (i.p.) the following day. This established memory P14 CD8<sup>+</sup> T cells throughout organism, including within the FRT<sup><xref rid="R29" ref-type="bibr">29</xref></sup>. 30 days later, we treated the mice with FTY720 for 8 days, which inhibits S1P-mediated cell egress<sup><xref rid="R30" ref-type="bibr">30</xref></sup>. On the second day of treatment, cognate gp33 peptide was delivered transcervically to reactivate local P14 memory CD8<sup>+</sup> T cells<sup><xref rid="R27" ref-type="bibr">27</xref>,<xref rid="R31" ref-type="bibr">31</xref></sup>. When draining iliac lymph nodes were assessed 30 days later, we observed a substantial reduction in CD69<sup>+</sup> LN T<sub>RM</sub> cells in mice that were treated with FTY720 during T cell activation (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1</xref>). These data suggest that S1P contributes to the egress of reactivated T cells from nonlymphoid tissues.</p>
+      </sec>
+      <sec id="S4">
+        <title>Epigenetic profiling of T<sub>RM</sub> reveals memory state with potential developmental plasticity</title>
+        <p id="P11">We wished to compare the potential developmental plasticity of CD8<sup>+</sup> T<sub>RM</sub> cells with other CD8<sup>+</sup> T cell lineages including naive, T<sub>CM</sub> and T<sub>EM</sub> cells. We focused on small intestine intraepithelial lymphocytes (SI IEL) T<sub>RM</sub> because they are uniformly (&gt;99%) resident after LCMV infection based on parabiosis studies<sup><xref rid="R29" ref-type="bibr">29</xref></sup>. Moreover, SI IEL T<sub>RM</sub> express a highly differentiated T<sub>RM</sub> phenotype (CD103<sup>+</sup>, CD69<sup>+</sup>, granzyme B<sup>+</sup>, CD62L<sup>-</sup>, Ly6C<sup>lo</sup>, IL-1MP5Rb<sup>lo</sup>), whereas CD8<sup>+</sup> T cells, including T<sub>RM</sub> cells in other tissues, are more heterogeneous<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R32" ref-type="bibr">32</xref>,<xref rid="R33" ref-type="bibr">33</xref></sup> (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). SI IEL T<sub>RM</sub> also express CCR9 (<xref rid="F2" ref-type="fig">Fig. 2a</xref>). To generate naive, early and late effector, and memory CD8<sup>+</sup> T cell subsets expressing identical TCRs, we transferred naive CD90.1<sup>+</sup> P14 CD8<sup>+</sup> T cells to naive C57BL/6J mice. The following day, mice were infected with 2&#xD7;10<sup>5</sup> PFU LCMV Armstrong i.p., which causes an infection that is cleared within approximately one week<sup><xref rid="R34" ref-type="bibr">34</xref></sup>. Four and eight days later, effector cells were sorted into memory precursor cells (MPs, CD127<sup>hi</sup>KLRG1<sup>lo</sup>) and terminal effector cells (TEs, CD127<sup>lo</sup>KLRG1<sup>hi</sup>). Memory P14 were isolated from LN or spleen at least three months later and sorted into CD62L<sup>+</sup> (T<sub>CM</sub>) and CD62L<sup>-</sup> (T<sub>EM</sub>) subsets or were isolated from small intestine epithelium and sorted to ensure a uniform CD103<sup>+</sup>CD69<sup>+</sup>CD62L<sup>-</sup>Ly6C<sup>lo</sup> (T<sub>RM</sub>) phenotype. Naive CD62L<sup>+</sup> cells were sorted from LNs of naive CD90.1<sup>+</sup> P14 Tg mice.</p>
+        <p id="P12">The transcriptome of LCMV-specific P14 T<sub>RM</sub> cells isolated from gut has previously been reported<sup><xref rid="R35" ref-type="bibr">35</xref></sup>. Principal component analysis (PCA) revealed that T<sub>CM</sub> and T<sub>EM</sub> cells were nearly identical and more similar to naive T cells than T<sub>RM</sub> cells (published dataset reanalyzed in <xref rid="F2" ref-type="fig">Fig. 2b</xref>), supporting the contention that T<sub>RM</sub> cells represent a distinct cell type or lineage.</p>
+        <p id="P13">Transcriptional profiling indicates what genes are currently being transcribed by a cell population. However, it does not inform which genes have the potential to be expressed under changing conditions or as a result of external stimuli. For instance, mRNA profiling fails to capture key biological differences between resting naive and memory T cells, such as the ability to synthesize IFN&#x3B3; rapidly in the event of antigen recognition<sup><xref rid="R36" ref-type="bibr">36</xref></sup>. Whole genome bisulfite sequencing (WGBS) indicates which genes have been silenced by DNA methylation. In other words, it provides a readout more closely aligned with gene expression potential, rather than an indication of which genes are actively undergoing transcription. We performed whole genome bisulfite sequencing (WGBS) on naive, T<sub>CM</sub>, T<sub>EM</sub>, and T<sub>RM</sub> cell subsets (<xref rid="F2" ref-type="fig">Fig. 2c</xref>). Because T<sub>RM</sub> cells share phenotypic properties with effector T cells, as a basis of comparison we also analyzed recently primed MPs and TEs.</p>
+        <p id="P14">Principal component analyses (PCA) of genome wide CpG methylation status in naive, recently activated effector cells, T<sub>CM</sub>, T<sub>EM</sub>, and T<sub>RM</sub> cells revealed that there was little variance in methylation status in the memory T cell subsets. Specifically, the T<sub>CM</sub>, T<sub>EM</sub>, and T<sub>RM</sub> cell subsets clustered together in a separate cluster while naive cells and the recently activated effector subsets were in separate clusters (<xref rid="F2" ref-type="fig">Fig. 2c</xref>). <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2a</xref> details the methylation status of several T<sub>RM</sub> specific genes among the naive, effector, and memory T cell subsets. It should also be noted that even when effector cells were removed from PCA, all memory subsets clustered together and away from naive T cells (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2b</xref>). These data suggest that although T<sub>RM</sub> cells share some phenotypic signatures with recently activated effector T cells (<xref rid="F2" ref-type="fig">Fig. 2a</xref>), they may be resting memory T cells at the epigenetic level and share commonalities with other resting memory T cell subsets, including T<sub>CM</sub> cells.</p>
+        <p id="P15">To explore developmental potential, we subjected our WGBS methylation datasets to machine learning algorithms designed to assign relative plasticity among cell types<sup><xref rid="R37" ref-type="bibr">37</xref></sup>. Here naive T cells, which biologically exhibit the most multipotency, are assigned a score of 1. Exhausted CD8<sup>+</sup> T cells exhibit a plasticity score of close to zero, in keeping with numerous observations supporting senescence and little developmental potential. Here we found that the T<sub>RM</sub> plasticity score was intermediate between that defined for T<sub>CM</sub> and T<sub>EM</sub>, raising the possibility that T<sub>RM</sub> cells may not be as terminally differentiated as previously proposed. Recently activated cells had plasticity scores that were almost as high as T<sub>RM</sub> at D4 but diminished by D8 (<xref rid="F2" ref-type="fig">Fig. 2d</xref>). Interestingly, SI IEL have been shown to be seeded approximately 4 days after infection in this LCMV infection model, and by day 7, effector cell migration to the SI is significantly diminished<sup><xref rid="R32" ref-type="bibr">32</xref></sup>. Moreover, KLRG1<sup>+</sup> CD8<sup>+</sup> T cells (a subset usually associated with terminal differentiation) are largely incapable of differentiating into CD103<sup>+</sup> T<sub>RM</sub> cells<sup><xref rid="R38" ref-type="bibr">38</xref>&#x2013;<xref rid="R40" ref-type="bibr">40</xref></sup>. Although our PCA analysis, which was based on the DNA methylation status of the CD8<sup>+</sup> T cells, broadly segregates the effector subsets from the memory subsets, our machine learning-derived plasticity index supported the hypothesis that the developmental potential of T<sub>RM</sub> cells (as well as T<sub>CM</sub> cells) is more comparable to CD8<sup>+</sup> T cells that have not undergone terminal differentiation.</p>
+      </sec>
+      <sec id="S5">
+        <title>Transdifferentiation of T<sub>RM</sub> into circulating memory T cell subsets</title>
+        <p id="P16">The results above (<xref rid="F1" ref-type="fig">Fig. 1</xref> and <xref rid="F2" ref-type="fig">2</xref>) raised the possibility that T<sub>RM</sub> cells may have developmental plasticity rather than represent a terminal effector stage of differentiation. This concept had been explored years prior, but without sorting cells on T<sub>RM</sub> markers, leaving interpretation subjective<sup><xref rid="R32" ref-type="bibr">32</xref></sup>. To address this question, 90 days after transfer of naive P14 CD8<sup>+</sup> T cells and LCMV infection, memory P14 cells were isolated from pooled lymph nodes and sorted into CD62L<sup>+</sup> (T<sub>CM</sub>) or spleen into CD62L<sup>&#x2013;</sup> (T<sub>EM</sub>) cells. In addition, P14 were isolated from SI IEL and sorted to ensure a uniform CD103<sup>+</sup>CD69<sup>+</sup>CD62L<sup>&#x2013;</sup>Ly6C<sup>lo</sup> (T<sub>RM</sub>) phenotype (see <xref rid="F3" ref-type="fig">Fig. 3a</xref> for pre- and post-sort analysis).</p>
+        <p id="P17">To directly test developmental plasticity, 20,000 sorted naive, T<sub>CM</sub>, T<sub>EM</sub>, or SI IEL T<sub>RM</sub> P14 cells were transferred i.v. into separate naive C57BL/6J recipients (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). Mice were then infected with LCMV, and the primary or recall response from transferred memory cells was monitored in blood (<xref rid="F3" ref-type="fig">Fig. 3b</xref>). We observed that CD62L was gradually upregulated at the population level in blood by all subsets except T<sub>EM</sub> (<xref rid="F3" ref-type="fig">Fig. 3c</xref>). Hierarchically, naive T cells most rapidly produced CD62L<sup>+</sup> memory T cell progeny, followed by T<sub>CM</sub>, then T<sub>RM</sub> cells (<xref rid="F3" ref-type="fig">Fig. 3c</xref> and <xref rid="F3" ref-type="fig">d</xref>).</p>
+        <p id="P18">These data indicate that after isolation and re-stimulation, purified bona fide SI IEL T<sub>RM</sub> cells have the capacity to differentiate into T<sub>CM</sub> cells. Consistent with T<sub>RM</sub> developmental plasticity, we found that bloodborne secondary Ex-T<sub>RM</sub> cells had downregulated CD69 and CD103 (<xref rid="F3" ref-type="fig">Fig. 3e</xref>). However, it should be noted that we found phenotypic traces of their non-lymphoid history imprinted on circulating secondary Ex-T<sub>RM</sub> cells: both Ly6C and CCR9 expression only slowly conformed to the canonical circulating phenotype, and even at the latest time point analyzed (100 days after re-stimulation), bloodborne secondary Ex-T<sub>RM</sub> cells still exhibited phenotypic traces of their former tissue of residence (<xref rid="F3" ref-type="fig">Fig. 3f</xref> and <xref rid="F3" ref-type="fig">g</xref>).</p>
+      </sec>
+      <sec id="S6">
+        <title>Developmental plasticity and tissue redistribution of T<sub>CM</sub> and T<sub>RM</sub></title>
+        <p id="P19">We next assessed the anatomic distribution of the progeny of transferred and re-stimulated T<sub>CM</sub> and T<sub>RM</sub> cells performed in <xref rid="F3" ref-type="fig">Fig. 3</xref>. Again, primary memory T cells after transfer of naive P14 T cells was included as a basis of comparison. In spleen, T<sub>CM</sub> cells produced more secondary memory CD8<sup>+</sup> T cells than did re-stimulated SI IEL T<sub>RM</sub> cells. However, the progeny of intravenously transferred SI IEL maintained a predilection for repopulating the small intestine and were observed in both the lamina propria (SI LP) and epithelium by immunohistochemistry (<xref rid="F4" ref-type="fig">Fig. 4a</xref>, <xref rid="F4" ref-type="fig">b</xref> and <xref rid="F4" ref-type="fig">d</xref>). This propensity did not extend to other T<sub>RM</sub> compartments, such as salivary gland (SG) and FRT (<xref rid="F4" ref-type="fig">Fig. 4a</xref> and <xref rid="F4" ref-type="fig">b</xref>). Similar observations were made after transfer and recall of polyclonal endogenous N-specific CD8<sup>+</sup> T<sub>RM</sub> cells isolated from SI IEL of VSV-infected mice (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3</xref>). Accordingly, previous evidence suggested that T cells isolated from SG or lung retained a predilection for their tissue of origin<sup><xref rid="R41" ref-type="bibr">41</xref>,<xref rid="R42" ref-type="bibr">42</xref></sup>.</p>
+        <p id="P20">If re-stimulated SI IEL returned to the small intestine, they retained the naive T cell-like capacity to acquire canonical site-associated residence signatures, including high expression of CD103 and CD69, and low expression of Ly6C (<xref rid="F4" ref-type="fig">Fig. 4c</xref>). In contrast, T<sub>CM</sub> progeny were moderately less likely to express CD103 and down regulate Ly6C. Secondary memory SI IEL that derived from transferred T<sub>RM</sub> cells also maintained higher expression of Granzyme B long after clearance of LCMV Armstrong infection (<xref rid="F4" ref-type="fig">Fig. 4c</xref>). These data indicate that although SI IEL T<sub>RM</sub> exhibited developmental plasticity (<xref rid="F2" ref-type="fig">Fig. 2</xref>), compared to T<sub>CM</sub> cells they retain a bias to home to their parental tissue and reacquire SI IEL T<sub>RM</sub> signatures.</p>
+      </sec>
+      <sec id="S7">
+        <title>Ex-T<sub>RM</sub> remain epigenetically poised for migration and T<sub>RM</sub> re-differentiation</title>
+        <p id="P21">To further test imprinting of memory T cell fates, we tested trans-generational developmental plasticity. First, P14 immune chimeras were generated as described in <xref rid="F3" ref-type="fig">Fig. 3</xref>, which provided a source of flow sorted primary CD90.1<sup>+</sup>CD62L<sup>+</sup> T<sub>CM</sub> and CD103<sup>+</sup>CD69<sup>+</sup>CD62L<sup>&#x2013;</sup>Ly6C<sup>lo</sup> SI IEL T<sub>RM</sub> cells. 20,000 of each population was transferred into separate recipients, followed by LCMV infection to induce a recall response. 100 days later, the secondary memory progeny of each population (referred to as 2&#xBA; Ex-T<sub>CM</sub> and 2&#xBA; Ex-T<sub>RM</sub>, respectively) were isolated from spleen (phenotype shown in <xref rid="F3" ref-type="fig">Fig. 3e</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 4</xref>). 1&#xD7;10<sup>5</sup> P14 cells (or 2.5&#xD7;10<sup>4</sup> in some experiments) of each population were transferred to new naive recipient mice, these mice were infected with LCMV to induce a tertiary immune response, and the fate of donor cells was evaluated 50 days later. Primary memory cells and secondary Ex-T<sub>CM</sub> cells provided a basis for comparison (<xref rid="F5" ref-type="fig">Fig. 5a</xref>).</p>
+        <p id="P22">Tertiary Ex-T<sub>RM</sub> cells retained properties of primary T<sub>RM</sub> cells, even after proliferating and differentiating outside of the mucosa (as secondary Ex-T<sub>RM</sub> cells were isolated from spleen). For instance, the population retained its predilection to repopulate the intestinal mucosal epithelium and to reacquire the phenotype observed among primary SI IEL T<sub>RM</sub> cells (<xref rid="F5" ref-type="fig">Fig. 5b</xref>-<xref rid="F5" ref-type="fig">e</xref>). In contrast, tertiary Ex-T<sub>CM</sub> cells increasingly deviated from the acquisition of a canonical SI IEL T<sub>RM</sub> phenotype. These data imply that induction of a T<sub>RM</sub> differentiation program during the primary response can influence subsequent fate upon recall, even when the cells are removed from the tissue where the residence program was acquired, and this program could be maintained through two generations of proliferation and transfer. In other words, these data indicate that a history of residence is epigenetically maintained despite the developmental plasticity of T<sub>RM</sub> cells.</p>
+        <p id="P23">We further note that in the absence of reinfection upon transfer, neither secondary Ex-T<sub>RM</sub> nor Ex-T<sub>CM</sub> cells were recovered from the small intestine (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 5</xref>), consistent with a model whereby secondary Ex-T<sub>RM</sub> cells require restimulation to migrate and re-differentiate into mucosal residents.</p>
+      </sec>
+      <sec id="S8">
+        <title>Ex-T<sub>RM</sub> are poised to reacquire T<sub>RM</sub> characteristics in response to cytokines</title>
+        <p id="P24">T<sub>RM</sub> precursors are thought to differentiate in response to local cytokine cues encountered upon migration to nonlymphoid tissues<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R32" ref-type="bibr">32</xref>,<xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R43" ref-type="bibr">43</xref></sup>. Here, we compared the capacity of Ex-T<sub>RM</sub>, Ex-T<sub>CM</sub>, and Ex-T<sub>EM</sub> cells (generated as in <xref rid="F3" ref-type="fig">figure 3</xref>, except cells were isolated 70 days after secondary infection) to acquire T<sub>RM</sub> signatures after culture with TGF&#x3B2;, IL-2, and IL-15. Ex-T<sub>RM</sub> cells were most poised to adopt SI IEL T<sub>RM</sub> signatures in response to cytokines, including upregulation of CD69 and CCR9 and down regulation of Ly6C (<xref rid="F6" ref-type="fig">Fig. 6a</xref> and <xref rid="F6" ref-type="fig">b</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="S9">
+      <title>Discussion</title>
+      <p id="P25">Our data indicate that T<sub>RM</sub> cells share more epigenetic signatures with circulating memory T cell subsets than recently activated effector T cells and furthermore, support a model by which T<sub>RM</sub> cells express the memory-like qualities of anamnestic expansion, migration, and differentiation after antigen recognition. This contrasts with models that view T<sub>RM</sub> as effector-like immediate responders that are terminally differentiated, with host recall responses relying on antigen dissemination to draining SLOs where anamnestic recall responses are induced solely by T<sub>CM</sub> cells.</p>
+      <p id="P26">Primary immune responses can be considered &#x2018;inside-out&#x2019;, meaning they are induced in deeper tissues (e.g. LNs that drain barrier sites of infection), and then proliferate and migrate out towards infected tissues. This topology is likely compelled by adaptive immune systems that rely on extreme clonal diversity. Our data support the existence of &#x2018;outside-in&#x2019; recall immune responses, whereby anamnestic responses are initiated and expand at frontline sites of infection and tissue barriers by local non-lymphoid T<sub>RM</sub> cells<sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R31" ref-type="bibr">31</xref></sup>, and form progeny that redistribute and even contribute to the circulating memory T cell pool. We speculate that this might provide some advantages for maintaining host protective immunity. For instance, in the event of reactivation, Ex-T<sub>RM</sub> cells from SI IEL retained a bias to repopulate the intestinal mucosa and the capacity to reacquire T<sub>RM</sub> signatures after arrival. In contrast, iterative re-stimulation of T<sub>CM</sub> and Ex-T<sub>CM</sub> cells resulted in populations of cells that lose T<sub>RM</sub> differentiation capacity. Thus, in the event that T<sub>RM</sub>-mediated front-line immunity wanes, or if an iterative environmental re-exposure were to exceed the capacity of local T<sub>RM</sub> cells to contain the infection or antigen locally, previous exposures could have populated the circulating memory T cell compartment with cells predisposed to preferentially migrate back to the parent tissue and to re-establish local resident immunity. Such a process could better prepare the organism for defense against future reinfections. The fact that Ex-T<sub>RM</sub> cells share minor phenotypic commonalities with their T<sub>RM</sub> predecessors raises the possibility that analysis of blood could, in theory, give some indication of tissue-specific immunity.</p>
+      <p id="P27">This study demonstrates that naive T cells exhibit the greatest developmental plasticity, whereas both T<sub>CM</sub> and T<sub>RM</sub> cells bias against producing reciprocal subsets. However, this biasing is not absolute. T<sub>RM</sub> cells are not terminally differentiated. And because both T<sub>CM</sub> and T<sub>RM</sub> cells can interconvert, it indicates that each subset is not a fixed discrete cell type or lineage, which rejects many models of memory T cell subset ontogeny, particularly those that define linear unidirectional subset relationships. We did note that SI IEL did not proliferate as well as T<sub>CM</sub> cells upon i.v. transfer and reinfection. This might be due to extrinsic variables, for instance T<sub>RM</sub> cells may not survive well or may not migrate to locations optimized for reactivation after isolation and transfer. These issues might be unphysiological products of experimental design. Alternatively, there may be cell intrinsic differences in activation and proliferation potential. Perhaps both intrinsic and extrinsic variables explain differences in observed T<sub>RM</sub> and T<sub>CM</sub> expansion.</p>
+      <p id="P28">As KLRG1 expression is sometimes associated with terminal T cell differentiation, our data is consistent with observations that T<sub>RM</sub> derive from KLRG1<sup>lo</sup> precursors<sup><xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R39" ref-type="bibr">39</xref></sup>. That said, some contexts may not allow productive T<sub>RM</sub> recall responses that expand the population, lead to a redistribution of T<sub>RM</sub>, or reveal developmental plasticity, as reported for HSV-specific recall responses in mouse skin<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. It is unclear whether these differences are related to HSV-specific memory or other aspects of site-specific immunity, but we previously found that VSV-specific memory T cells positioned in skin were capable of recall responses that expanded the local population<sup><xref rid="R26" ref-type="bibr">26</xref></sup>.</p>
+      <p id="P29">It was previously observed that LN T<sub>RM</sub> cells accumulate in regional lymph nodes after local reinfection<sup><xref rid="R28" ref-type="bibr">28</xref></sup>. We further demonstrated that LN T<sub>RM</sub> cells derived from cells previously present in the upstream nonlymphoid tissue, and we showed evidence of retrograde migration. Whether these cells derived from either bona fide nonlymphoid T<sub>RM</sub> cells or transient migrants was not concluded. It should also be noted that T cells can recirculate through nonlymphoid tissues<sup><xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R44" ref-type="bibr">44</xref>&#x2013;<xref rid="R47" ref-type="bibr">47</xref></sup>. Retrograde migration occurs from skin xenografts by CD4<sup>+</sup> T cells that retain T<sub>RM</sub> markers<sup><xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R48" ref-type="bibr">48</xref></sup>. As these cells were postulated to recirculate in the steady state (reenter skin from blood in the absence of intentional restimulation), it is unclear whether this phenomenon relates to the Ex-T<sub>RM</sub> biology we describe, or rather indicates that nonlymphoid recirculating cells may retain some markers in common with residents<sup><xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R44" ref-type="bibr">44</xref>&#x2013;<xref rid="R46" ref-type="bibr">46</xref></sup>. Indeed both resident and recirculating memory CD4<sup>+</sup> T cells have been identified in skin<sup><xref rid="R33" ref-type="bibr">33</xref>,<xref rid="R47" ref-type="bibr">47</xref></sup>. CD69<sup>+</sup> T cells are increased in the blood of psoriatic arthritis patients and CD103<sup>+</sup> T cells appear in human celiac disease patients after in vivo challenge with gluten<sup><xref rid="R49" ref-type="bibr">49</xref>,<xref rid="R50" ref-type="bibr">50</xref></sup>. Our study raises the possibility that these phenomena may be accounted for by Ex-T<sub>RM</sub> cells.</p>
+      <p id="P30">In summary, this study demonstrates that T<sub>RM</sub> cells share key features of developmental and migration plasticity with circulating memory T cells, including T<sub>CM</sub> cells. Further evidence indicates that Ex-T<sub>RM</sub> cells may shape the circulating pool to be predisposed to mount site-specific recall responses that preferentially maintain T<sub>RM</sub> redifferentiation capacity.</p>
+    </sec>
+    <sec id="S10">
+      <title>Materials and Methods</title>
+      <sec id="S11">
+        <title>Mice</title>
+        <p id="P31">C57BL/6J female mice were purchased from The Jackson Laboratory and were maintained in specific-pathogen-free conditions at the University of Minnesota. CD90.1<sup>+</sup> P14, CD45.1<sup>+</sup> P14, CD90.1<sup>+</sup> OT-I, and CD45.1<sup>+</sup> OT-I mice were fully backcrossed to C57BL/6J mice and maintained in our animal colony. B6.SJL mice were purchased from JAX and bred in-house. All mice used were 6&#x2013;10 weeks of age and used in accordance with the Institutional Animal Care and Use Committees guidelines at the University of Minnesota.</p>
+      </sec>
+      <sec id="S12">
+        <title>Adoptive transfers and infections</title>
+        <p id="P32">We generated P14 immune chimeras by transferring 5&#xD7;10<sup>4</sup> naive CD90.1<sup>+</sup> or CD45.1<sup>+</sup> P14 T cells i.v. into naive C57BL/6J mice and infecting mice with 2&#xD7;10<sup>5</sup> plaque-forming units (PFU) of LCMV (Armstrong strain) i.p. the following day. OT-I immune chimeras were generated by transferring 5X10<sup>4</sup> na&#xEF;ve CD90.1<sup>+</sup> or CD45.1<sup>+</sup> OT-I CD8<sup>+</sup> T cells into naive C57BL/6J mice. Mice were infected with 1X10<sup>6</sup> PFU Vesicular Stomatitis Virus expressing chicken ovalbumin (VSVova) i.v. the following day. For cell sorting experiments, memory and naive P14 CD8<sup>+</sup> T cells were sorted using fluorescently labeled CD45.1 (A20), CD8&#x3B2; (YTS156.7.7), CD62L (MEL-14), Ly6C (AL-21 and HK1.4), CD127 (SB/199), CD44 (IM7), CD69 (H1.2F3) and CD103 (M290) antibodies in a Becton Dickinson FACSAria II. Following sort purification, 2&#xD7;10<sup>4</sup> memory and naive P14 cells were transferred i.v. to new C57BL/6J recipients, followed by infection with 2&#xD7;10<sup>5</sup> PFU of LCMV Armstrong i.p. in the same day.</p>
+      </sec>
+      <sec id="S13">
+        <title><italic>In vivo</italic> antibody treatment and T<sub>RM</sub> reactivation</title>
+        <p id="P33">Circulating CD90.1<sup>+</sup> P14 CD8<sup>+</sup> memory T cells were depleted by injecting 0.75 to 1.5 &#x3BC;g of anti-CD90.1 antibody (HIS51, eBioscience) i.p. as previously described<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. 4 days after administration of antibody, 2&#xD7;10<sup>5</sup> CD45.1<sup>+</sup> P14 or CD45.1<sup>+</sup> OT-I memory lymphocytes from the spleen and lymph node were transferred i.v. into depleted mice. Local T<sub>RM</sub> reactivation was performed by delivering 50 &#x3BC;g of gp33 peptide trans-cervically (t.c.) in a 30 &#x3BC;l volume by modified gel loading pipet<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. To reactivate OT-I CD8<sup>+</sup> T<sub>RM</sub> cells positioned in skin, a 2cm<sup>2</sup> area of the flank skin was shaved and 0.5 &#x3BC;g of SIINFEKL peptide was applied using a tattoo gun as previously described<sup><xref rid="R28" ref-type="bibr">28</xref></sup>. PBS was used in control animals.</p>
+      </sec>
+      <sec id="S14">
+        <title>Intravascular staining, lymphocyte isolation and phenotyping</title>
+        <p id="P34">To discriminate intravascular from extravascular cells, we injected mice i.v. with biotin-conjugated anti-CD8&#x3B1; as described<sup><xref rid="R51" ref-type="bibr">51</xref></sup>. Three minutes after the injection, we sacrificed the mice and harvested tissues as described<sup><xref rid="R52" ref-type="bibr">52</xref></sup>. Isolated cells were stained with antibodies to CD45.1 (A20), CD8&#x3B1; (53&#x2013;6.7), CD8&#x3B2; (YTS156.7.7), CD27 (LG.3A10), CD62L (MEL-14), Ly6C (AL-21 and HK1.4), CD127 (A7R34), CCR9 (CW-1.2), CD44 (IM7), CD69 (H1.2F3), CD103 (M290 or 2E7), CD90.1 (OX-7 or His51), CD122 (TM-&#x3B2;1), CD49a (Ha31/8), CX3CR1 (SA011F11), &#x3B1;4&#x3B2;7 (DATK32) and KLRG1 (2F1), all from BD Biosciences, Tonbo Biosciences, Biolegend or Affymetrix eBiosciences. LCMV-specific T cells were stained with fluorescently conjugated H-2D<sup>b</sup>/gp33 MHC I tetramers. Ova-specific T cells were stained with fluorescently conjugated H-2K<sup>b</sup>/SIINFEKL MHC I tetramers. Endogenous VSV-specific cells were stained with fluorescently conjugated H-2K<sup>b</sup>/N MHC I tetramers. Allophycocyanin (APC) or Phycoerythrin (PE)-conjugated anti-Granzyme B (GB12 or GB11, Invitrogen) antibody intracellular staining was performed using the Cytofix/Cytoperm kit (BD Pharmigen) following manufacturer&#x2019;s instructions. Cell viability was determined with Ghost Dye 780 (Tonbo Biosciences). The stained samples were acquired on LSRII or LSR Fortessa flow cytometers (BD) and analyzed with FlowJo software (Treestar).</p>
+      </sec>
+      <sec id="S15">
+        <title>Tissue freezing and Immunofluorescence</title>
+        <p id="P35">Murine tissue was harvested, embedded and sectioned as described<sup><xref rid="R29" ref-type="bibr">29</xref></sup>. Briefly, 7 &#x3BC;m tissue sections were obtained from frozen tissue blocks in a Leica CM1860 UV cryostat. The sections were stained with CD8&#x3B2; (YTS156.7.7, Biolegend) and CD45.1 (A20, Biolegend) as above. The collagen-IV signal was amplified using AF488 Bovine anti-goat IgG (Jackson ImmunoResearch). Microscopy was performed using a Leica DM6000 B microscope and images were analyzed in Adobe Photoshop CS6.</p>
+      </sec>
+      <sec id="S16">
+        <title>Skin transplant surgeries</title>
+        <p id="P36">Skin transplant was performed as described earlier<sup><xref rid="R53" ref-type="bibr">53</xref></sup>. CD90.1<sup>+</sup> OT-I immune chimeric mice skin was harvested. The recipient (infection matched CD45.1<sup>+</sup> OT-I immune chimeric mice) graft bed was prepared by removing a &#x223C;1 cm<sup>2</sup> piece of skin from the upper left flank. The donor skin was attached on to the graft site using silk sutures (Sofsilk, Covidien) and a band aid was used to keep the graft in place. The band aid and sutures were removed 7 days post-surgery and the graft was allowed to heal for at least 30 days before peptide recall.</p>
+      </sec>
+      <sec id="S17">
+        <title>Genomic methylation analysis</title>
+        <p id="P37">DNA was isolated from 50,000 FACS-purified P14 CD8<sup>+</sup> T cells per sample using the Qiagen DNeasy blood and tissue kit. Genomic DNA was bisulfite-treated using the Zymo Research EZ DNA methylation kit. Bisulfite-induced deamination of cytosine was used to determine the allelic frequency of cytosine methylation of the target genomic region<sup><xref rid="R54" ref-type="bibr">54</xref></sup>.The PCR amplicon was cloned into the pGEM-T TA cloning vector (Promega) then transformed into XL10-Gold ultracompetent bacteria (Stratagene). Individual bacterial colonies were grown and the cloning vector was isolated and sequenced. Library preparation and sequencing for the generation of whole genome DNA methylation profiles of naive and memory CD8<sup>+</sup> T cell subsets (T<sub>CM</sub>, T<sub>RM</sub>, and T<sub>EM</sub>) were performed using previously established protocols<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R55" ref-type="bibr">55</xref></sup>. The M values for the 3,000 most variable CpG sites were used for hierarchical clustering and PCA analyses in RStudio (v1.0.136). The built-in R <italic>prcomp</italic> and <italic>autoplot</italic> functions were used to perform PCA.</p>
+      </sec>
+      <sec id="S18">
+        <title>Plasticity score calculation</title>
+        <p id="P38">To identify the methylation state of the CpG sites associated with the T cell multipotent potential, a supervised analysis was performed between the methylomes from 3 wild type naive and 2 wild type after exhausted (35 days post chronic LCMV infection) gp33-specific CD8<sup>+</sup> T cells (methylation difference &gt;=0.6 and FDR&lt;= 0.01). A minimum of 10,000 cells were used per sample to establish the whole-genome methylation profiles of na&#xEF;ve and exhausted T cells. These whole genome methylation profiles were then used for the machine learning approach to develop the multipotency index. This analysis resulted in identification of 598 CpGs sites that were hypomethylated in naive CD8<sup>+</sup> T cells compared to exhausted CD8<sup>+</sup> T cells. This set of CpGs was then used as an input to the one-class logistic regression to calculate the multipotency signature using naive samples<sup><xref rid="R37" ref-type="bibr">37</xref>,<xref rid="R56" ref-type="bibr">56</xref></sup>. Once the signature was obtained, it was then applied to naive, T<sub>CM</sub>, T<sub>EM</sub>, T<sub>RM</sub>, day 4 MP and TE, and day 8 MP and TE CD8<sup>+</sup> T cell methylomes. Exhausted CD8<sup>+</sup> T cell and effector CD8<sup>+</sup> T cell profiles were obtained from previously published data sets<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R55" ref-type="bibr">55</xref></sup>. The score was calculated as the dot product between the DNA methylation value and the signature. The score was subsequently converted to the [0, 1] range. Data sets with multipotency indices closer to 1 were more similar to naive cells.</p>
+      </sec>
+      <sec id="S19">
+        <title>Global transcriptome analysis</title>
+        <p id="P39">Previously published mouse CD8<sup>+</sup> T cell transcriptome data was downloaded from GEO(GSE70813)<sup><xref rid="R35" ref-type="bibr">35</xref></sup>. Principal Component Analysis (PCA) was performed with the naive, T<sub>EM</sub>, T<sub>CM</sub>, and gut T<sub>RM</sub> data samples in this data set. The built-in R <italic>prcomp</italic> and <italic>autoplot</italic> functions were used to perform the PCA and a plot of the first two principal components, respectively in RStudio (v1.0.136). Differential gene expression between the naive and gut T<sub>RM</sub> samples was assessed with DESeq2(v1.12.4) using HOMER&#x2019;s getDiffExpression.pl using a false discovery rate (FDR) of 5% and a log2 fold change of 2<sup><xref rid="R57" ref-type="bibr">57</xref></sup>.</p>
+      </sec>
+      <sec id="S20">
+        <title>In vitro T<sub>RM</sub> differentiation assays</title>
+        <p id="P40">2&#xD7;10<sup>4</sup> primary memory CD45.1<sup>+</sup> P14 T<sub>CM</sub> from macroscopic lymph nodes, T<sub>EM</sub> from spleen, and T<sub>RM</sub> from SI IEL were transferred i.v. into individual naive C57BL/6J recipients and infected with 2&#xD7;10<sup>5</sup> PFU LCMV-Armstrong the same day. 50&#x2013;70 days post infection, single cell suspensions from the spleen and all macroscopic lymph nodes except mesenteric were isolated and CD8<sup>+</sup> T cells were purified using a CD8<sup>+</sup> T cell Negative Isolation Kit (StemCell Technologies). Cells were cultured as described previously<sup><xref rid="R58" ref-type="bibr">58</xref></sup>, with modifications. Briefly, purified cells were incubated in individual wells with 20 IU/mL rhIL-2 (R&amp;D Systems) and 50 ng/mL rhIL-15 (R&amp;D Systems) for 2 days, followed by 2 day incubation with 20 IU/mL rhIL-2 and 50 ng/mL rhTGF&#x3B2;&#x2212;1 (R&amp;D Systems) in complete RP-10 (RPMI-1640 containing 10% heat inactivated FBS, 100 U/ml penicillin/streptomycin, 1&#xD7; nonessential amino acids, 1&#xD7; essential amino acids, and &#x3B2;-mercaptoethanol). Cells were analyzed after 4 days.</p>
+      </sec>
+      <sec id="S21">
+        <title>Statistics</title>
+        <p id="P41">Sample distribution was evaluated using the D&#x2019;Agostino and Pearson omnibus normality test. Parametric tests (unpaired two-tailed Student&#x2019;s t-test for two groups and one-way or two-way ANOVA with Tukey&#x2019;s multiple comparison test for more than two groups as indicated) or nonparametric (two-tailed Mann-Whitney U test) were used when specified. All statistical analysis was done in GraphPad Prism (GraphPad Software Inc.).</p>
+      </sec>
+      <sec sec-type="data-availability" id="S22">
+        <title>Data availability</title>
+        <p id="P42">All original data are available from the corresponding author upon request.</p>
+      </sec>
+      <sec id="S23">
+        <title>Life Sciences Reporting Summary</title>
+        <p id="P43">Further information on experimental design can be found in the Life Sciences Reporting Summary.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM1">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS1550331-supplement-1.pdf" orientation="portrait" id="d36e1835" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>2</label>
+        <media xlink:href="NIHMS1550331-supplement-2.pdf" orientation="portrait" id="d36e1839" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S24">
+      <title>Acknowledgments</title>
+      <p id="P44">We thank the members of the Masopust laboratory and the University of Minnesota Center for Immunology for helpful discussions. Funded by National Institutes of Health grant R01AI084913 and Howard Hughes Medical Institute Scholars program (D.M.) and FAPESP-BEPE (2015/00680-7) fellowship (R.F).</p>
+    </ack>
+    <fn-group>
+      <fn id="FN3">
+        <p id="P45">Competing interests</p>
+        <p id="P46">The authors declare no competing interests.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="R1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><name><surname>Obar</surname><given-names>JJ</given-names></name>, <name><surname>Khanna</surname><given-names>KM</given-names></name> &amp; <name><surname>Lefran&#xE7;ois</surname><given-names>L</given-names></name>
+<article-title>Endogenous Naive CD8+ T Cell Precursor Frequency Regulates Primary and Memory Responses to Infection</article-title>. <source>Immunity</source>
+<volume>28</volume>, <fpage>859</fpage>&#x2013;<lpage>869</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18499487</pub-id></mixed-citation>
+      </ref>
+      <ref id="R2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><name><surname>Picker</surname><given-names>LJ</given-names></name> &amp; <name><surname>Butcher</surname><given-names>EC</given-names></name>
+<article-title>Physiological and Molecular Mechanisms of Lymphocyte Homing</article-title>. <source>Annu. Rev. Immunol</source>
+<volume>10</volume>, <fpage>561</fpage>&#x2013;<lpage>591</lpage> (<year>1992</year>).<pub-id pub-id-type="pmid">1590996</pub-id></mixed-citation>
+      </ref>
+      <ref id="R3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><name><surname>von Andrian</surname><given-names>UH</given-names></name> &amp; <name><surname>Mackay</surname><given-names>CR</given-names></name>
+<article-title>T-Cell Function and Migration &#x2014; Two Sides of the Same Coin</article-title>. <source>N. Engl. J. Med</source>
+<volume>343</volume>, <fpage>1020</fpage>&#x2013;<lpage>1034</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">11018170</pub-id></mixed-citation>
+      </ref>
+      <ref id="R4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><name><surname>Masopust</surname><given-names>D</given-names></name>. &amp; <name><surname>Soerens</surname><given-names>AG</given-names></name>
+<article-title>Tissue-Resident T Cells and Other Resident Leukocytes</article-title>. <source>Annu. Rev. Immunol</source>
+<volume>37</volume>, <fpage>521</fpage>&#x2013;<lpage>546</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30726153</pub-id></mixed-citation>
+      </ref>
+      <ref id="R5">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><name><surname>Park</surname><given-names>CO</given-names></name> &amp; <name><surname>Kupper</surname><given-names>TS</given-names></name>
+<article-title>The emerging role of resident memory T cells in protective immunity and inflammatory disease</article-title>. <source>Nat. Med</source>
+<volume>21</volume>, <fpage>688</fpage>&#x2013;<lpage>697</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26121195</pub-id></mixed-citation>
+      </ref>
+      <ref id="R6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><name><surname>Reinhardt</surname><given-names>RL</given-names></name>, <name><surname>Khoruts</surname><given-names>A</given-names></name>, <name><surname>Merica</surname><given-names>R</given-names></name>, <name><surname>Zell</surname><given-names>T</given-names></name>. &amp; <name><surname>Jenkins</surname><given-names>MK</given-names></name>
+<article-title>Visualizing the generation of memory CD4 T cells in the whole body</article-title>. <source>Nature</source>
+<volume>410</volume>, <fpage>101</fpage>&#x2013;<lpage>105</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11242050</pub-id></mixed-citation>
+      </ref>
+      <ref id="R7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><name><surname>Gebhardt</surname><given-names>T</given-names></name>, <name><surname>Wakim</surname><given-names>LM</given-names></name>, <name><surname>Eidsmo</surname><given-names>L</given-names></name>, <name><surname>Reading</surname><given-names>PC</given-names></name>, <name><surname>Heath</surname><given-names>WR</given-names></name> &amp; <name><surname>Carbone</surname><given-names>FR</given-names></name>
+<source>Memory T cells in nonlymphoid tissue that provide enhanced local immunity during infection with herpes simplex virus</source>. (<year>2009</year>). doi:<pub-id pub-id-type="doi">10.1038/ni.1718</pub-id></mixed-citation>
+      </ref>
+      <ref id="R8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><name><surname>Masopust</surname><given-names>D</given-names></name>, <name><surname>Vezys</surname><given-names>V</given-names></name>, <name><surname>Marzo</surname><given-names>AL</given-names></name> &amp; <name><surname>Lefran&#xE7;ois</surname><given-names>L</given-names></name>. <article-title>Preferential localization of effector memory cells in nonlymphoid tissue</article-title>. <source>Science</source>
+<volume>291</volume>, <fpage>2413</fpage>&#x2013;<lpage>7</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11264538</pub-id></mixed-citation>
+      </ref>
+      <ref id="R9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><name><surname>Champagne</surname><given-names>P</given-names></name>, <name><surname>Ogg</surname><given-names>GS</given-names></name>, <name><surname>King</surname><given-names>AS</given-names></name>, <name><surname>Knabenhans</surname><given-names>C</given-names></name>, <name><surname>Ellefsen</surname><given-names>K</given-names></name>, <name><surname>Nobile</surname><given-names>M</given-names></name>, <name><surname>Appay</surname><given-names>V</given-names></name>, <name><surname>Rizzardi</surname><given-names>GP</given-names></name>, <name><surname>Fleury</surname><given-names>S</given-names></name>, <name><surname>Lipp</surname><given-names>M</given-names></name>, <name><surname>F&#xF6;rster</surname><given-names>R</given-names></name>, <name><surname>Rowland-Jones</surname><given-names>S</given-names></name>, <name><surname>S&#xE9;kaly</surname><given-names>R-P</given-names></name>, <name><surname>McMichael</surname><given-names>AJ</given-names></name> &amp; <name><surname>Pantaleo</surname><given-names>G</given-names></name>. <article-title>Skewed maturation of memory HIV-specific CD8 T lymphocytes</article-title>. <source>Nature</source>
+<volume>410</volume>, <fpage>106</fpage>&#x2013;<lpage>111</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11242051</pub-id></mixed-citation>
+      </ref>
+      <ref id="R10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><name><surname>Stemberger</surname><given-names>C</given-names></name>, <name><surname>Neuenhahn</surname><given-names>M</given-names></name>, <name><surname>Gebhardt</surname><given-names>FE</given-names></name>, <name><surname>Schiemann</surname><given-names>M</given-names></name>, <name><surname>Buchholz</surname><given-names>VR</given-names></name> &amp; <name><surname>Busch</surname><given-names>DH</given-names></name>
+<article-title>Stem cell-like plasticity of na&#xEF;ve and distinct memory CD8+ T cell subsets</article-title>. <source>Semin. Immunol</source>
+<volume>21</volume>, <fpage>62</fpage>&#x2013;<lpage>68</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19269852</pub-id></mixed-citation>
+      </ref>
+      <ref id="R11">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><name><surname>Farber</surname><given-names>DL</given-names></name>, <name><surname>Yudanin</surname><given-names>NA</given-names></name> &amp; <name><surname>Restifo</surname><given-names>NP</given-names></name>
+<article-title>Human memory T cells: generation, compartmentalization and homeostasis</article-title>. <source>Nat. Rev. Immunol</source>
+<volume>14</volume>, <fpage>24</fpage>&#x2013;<lpage>35</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24336101</pub-id></mixed-citation>
+      </ref>
+      <ref id="R12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><name><surname>Sallusto</surname><given-names>F</given-names></name>, <name><surname>Geginat</surname><given-names>J</given-names></name>. &amp; <name><surname>Lanzavecchia</surname><given-names>A</given-names></name>. <article-title>Central Memory and Effector Memory T Cell Subsets&#x202F;: Function, Generation, and Maintenance</article-title>. <source>Annu. Rev. Immunol</source>
+<volume>22</volume>, <fpage>745</fpage>&#x2013;<lpage>763</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15032595</pub-id></mixed-citation>
+      </ref>
+      <ref id="R13">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><name><surname>Youngblood</surname><given-names>B</given-names></name>, <name><surname>Hale</surname><given-names>JS</given-names></name>, <name><surname>Kissick</surname><given-names>HT</given-names></name>, <name><surname>Ahn</surname><given-names>E</given-names></name>, <name><surname>Xu</surname><given-names>X</given-names></name>, <name><surname>Wieland</surname><given-names>A</given-names></name>, <name><surname>Araki</surname><given-names>K</given-names></name>, <name><surname>West</surname><given-names>EE</given-names></name>, <name><surname>Ghoneim</surname><given-names>HE</given-names></name>, <name><surname>Fan</surname><given-names>Y</given-names></name>, <name><surname>Dogra</surname><given-names>P</given-names></name>, <name><surname>Davis</surname><given-names>CW</given-names></name>, <name><surname>Konieczny</surname><given-names>BT</given-names></name>, <name><surname>Antia</surname><given-names>R</given-names></name>, <name><surname>Cheng</surname><given-names>X</given-names></name>. &amp; <name><surname>Ahmed</surname><given-names>R</given-names></name>. <article-title>Effector CD8 T cells dedifferentiate into long-lived memory cells</article-title>. <source>Nature</source>
+<volume>552</volume>, <fpage>404</fpage>&#x2013;<lpage>409</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">29236683</pub-id></mixed-citation>
+      </ref>
+      <ref id="R14">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><name><surname>Mueller</surname><given-names>SN</given-names></name>, <name><surname>Gebhardt</surname><given-names>T</given-names></name>, <name><surname>Carbone</surname><given-names>FR</given-names></name> &amp; <name><surname>Heath</surname><given-names>WR</given-names></name>
+<article-title>Memory T Cell Subsets, Migration Patterns, and Tissue Residence</article-title>. <source>Annu. Rev. Immunol</source>
+<volume>31</volume>, <fpage>137</fpage>&#x2013;<lpage>161</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23215646</pub-id></mixed-citation>
+      </ref>
+      <ref id="R15">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><name><surname>Gerlach</surname><given-names>C</given-names></name>, <name><surname>Moseman</surname><given-names>EA</given-names></name>, <name><surname>Loughhead</surname><given-names>SM</given-names></name>, <name><surname>Alvarez</surname><given-names>D</given-names></name>, <name><surname>Zwijnenburg</surname><given-names>AJ</given-names></name>, <name><surname>Waanders</surname><given-names>L</given-names></name>, <name><surname>Garg</surname><given-names>R</given-names></name>, <name><surname>de la Torre</surname><given-names>JC</given-names></name> &amp; <name><surname>von Andrian</surname><given-names>UH</given-names></name>
+<article-title>The Chemokine Receptor CX3CR1 Defines Three Antigen-Experienced CD8 T Cell Subsets with Distinct Roles in Immune Surveillance and Homeostasis</article-title>. <source>Immunity</source>
+<volume>45</volume>, <fpage>1270</fpage>&#x2013;<lpage>1284</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27939671</pub-id></mixed-citation>
+      </ref>
+      <ref id="R16">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><name><surname>Vezys</surname><given-names>V</given-names></name>, <name><surname>Yates</surname><given-names>A</given-names></name>, <name><surname>Casey</surname><given-names>KA</given-names></name>, <name><surname>Lanier</surname><given-names>G</given-names></name>, <name><surname>Ahmed</surname><given-names>R</given-names></name>, <name><surname>Antia</surname><given-names>R</given-names></name>. &amp; <name><surname>Masopust</surname><given-names>D</given-names></name>. <article-title>Memory CD8 T-cell compartment grows in size with immunological experience</article-title>. <source>Nature</source>
+<volume>457</volume>, <fpage>196</fpage>&#x2013;<lpage>199</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19005468</pub-id></mixed-citation>
+      </ref>
+      <ref id="R17">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><name><surname>Shin</surname><given-names>H</given-names></name>. &amp; <name><surname>Iwasaki</surname><given-names>A</given-names></name>. <article-title>Tissue-resident memory T cells</article-title>. <source>Immunological Reviews</source>
+<volume>255</volume> (<issue>1</issue>),<fpage>165</fpage>&#x2013;<lpage>181</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23947354</pub-id></mixed-citation>
+      </ref>
+      <ref id="R18">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><name><surname>Nguyen</surname><given-names>QP</given-names></name>, <name><surname>Deng</surname><given-names>TZ</given-names></name>, <name><surname>Witherden</surname><given-names>DA</given-names></name> &amp; <name><surname>Goldrath</surname><given-names>AW</given-names></name>
+<article-title>Origins of CD 4+ circulating and tissue&#x2010;resident memory T&#x2010;cells</article-title>. <source>Immunology</source>
+<volume>157</volume>, <fpage>3</fpage>&#x2013;<lpage>12</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">30897205</pub-id></mixed-citation>
+      </ref>
+      <ref id="R19">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><name><surname>Szabo</surname><given-names>PA</given-names></name>, <name><surname>Miron</surname><given-names>M</given-names></name>. &amp; <name><surname>Farber</surname><given-names>DL</given-names></name>
+<article-title>Location, location, location: Tissue resident memory T cells in mice and humans</article-title>. <source>Sci. Immunol</source>
+<volume>4</volume>, <comment>eaas9673</comment> (<year>2019</year>).</mixed-citation>
+      </ref>
+      <ref id="R20">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><name><surname>Glennie</surname><given-names>ND</given-names></name>, <name><surname>Yeramilli</surname><given-names>VA</given-names></name>, <name><surname>Beiting</surname><given-names>DP</given-names></name>, <name><surname>Volk</surname><given-names>SW</given-names></name>, <name><surname>Weaver</surname><given-names>CT</given-names></name> &amp; <name><surname>Scott</surname><given-names>P</given-names></name>. <article-title>Skin-resident memory CD4+ T cells enhance protection against Leishmania major infection</article-title>. <source>J. Exp. Med</source>
+<volume>212</volume>, <fpage>1405</fpage>&#x2013;<lpage>14</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26216123</pub-id></mixed-citation>
+      </ref>
+      <ref id="R21">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><name><surname>Kadoki</surname><given-names>M</given-names></name>, <name><surname>Patil</surname><given-names>A</given-names></name>, <name><surname>Thaiss</surname><given-names>CC</given-names></name>, <name><surname>Brooks</surname><given-names>DJ</given-names></name>, <name><surname>Pandey</surname><given-names>S</given-names></name>, <name><surname>Deep</surname><given-names>D</given-names></name>, <name><surname>Alvarez</surname><given-names>D</given-names></name>, <name><surname>von Andrian</surname><given-names>UH</given-names></name>, <name><surname>Wagers</surname><given-names>AJ</given-names></name>, <name><surname>Nakai</surname><given-names>K</given-names></name>, <name><surname>Mikkelsen</surname><given-names>TS</given-names></name>, <name><surname>Soumillon</surname><given-names>M</given-names></name>. &amp; <name><surname>Chevrier</surname><given-names>N</given-names></name>. <article-title>Organism-Level Analysis of Vaccination Reveals Networks of Protection across Tissues</article-title>. <source>Cell</source>
+<volume>171</volume>, <comment>398&#x2013;413.e21</comment> (<year>2017</year>).</mixed-citation>
+      </ref>
+      <ref id="R22">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><name><surname>Casey</surname><given-names>KA</given-names></name>, <name><surname>Fraser</surname><given-names>KA</given-names></name>, <name><surname>Schenkel</surname><given-names>JM</given-names></name>, <name><surname>Moran</surname><given-names>A</given-names></name>, <name><surname>Abt</surname><given-names>MC</given-names></name>, <name><surname>Beura</surname><given-names>LK</given-names></name>, <name><surname>Lucas</surname><given-names>PJ</given-names></name>, <name><surname>Artis</surname><given-names>D</given-names></name>, <name><surname>Wherry</surname><given-names>EJ</given-names></name>, <name><surname>Hogquist</surname><given-names>K</given-names></name>, <name><surname>Vezys</surname><given-names>V</given-names></name>. &amp; <name><surname>Masopust</surname><given-names>D</given-names></name>. <article-title>Antigen-independent differentiation and maintenance of effector-like resident memory T cells in tissues</article-title>. <source>J. Immunol</source>
+<volume>188</volume>, <fpage>4866</fpage>&#x2013;<lpage>75</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22504644</pub-id></mixed-citation>
+      </ref>
+      <ref id="R23">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><name><surname>Cheroutre</surname><given-names>H</given-names></name>. <article-title>IELs: enforcing law and order in the court of the intestinal epithelium</article-title>. <source>Immunol. Rev</source>
+<volume>206</volume>, <fpage>114</fpage>&#x2013;<lpage>131</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16048545</pub-id></mixed-citation>
+      </ref>
+      <ref id="R24">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><name><surname>Wakim</surname><given-names>LM</given-names></name>, <name><surname>Waithman</surname><given-names>J</given-names></name>, <name><surname>van Rooijen</surname><given-names>N</given-names></name>, <name><surname>Heath</surname><given-names>WR</given-names></name> &amp; <name><surname>Carbone</surname><given-names>FR</given-names></name>
+<article-title>Dendritic cell-induced memory T cell activation in nonlymphoid tissues</article-title>. <source>Science</source>
+<volume>319</volume>, <fpage>198</fpage>&#x2013;<lpage>202</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18187654</pub-id></mixed-citation>
+      </ref>
+      <ref id="R25">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><name><surname>Park</surname><given-names>SL</given-names></name>, <name><surname>Zaid</surname><given-names>A</given-names></name>, <name><surname>Hor</surname><given-names>JL</given-names></name>, <name><surname>Christo</surname><given-names>SN</given-names></name>, <name><surname>Prier</surname><given-names>JE</given-names></name>, <name><surname>Davies</surname><given-names>B</given-names></name>, <name><surname>Alexandre</surname><given-names>YO</given-names></name>, <name><surname>Gregory</surname><given-names>JL</given-names></name>, <name><surname>Russell</surname><given-names>TA</given-names></name>, <name><surname>Gebhardt</surname><given-names>T</given-names></name>, <name><surname>Carbone</surname><given-names>FR</given-names></name>, <name><surname>Tscharke</surname><given-names>DC</given-names></name>, <name><surname>Heath</surname><given-names>WR</given-names></name>, <name><surname>Mueller</surname><given-names>SN</given-names></name> &amp; <name><surname>Mackay</surname><given-names>LK</given-names></name>
+<article-title>Local proliferation maintains a stable pool of tissue-resident memory T cells after antiviral recall responses</article-title>. <source>Nat. Immunol</source>
+<volume>19</volume>, <fpage>183</fpage>&#x2013;<lpage>191</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29311695</pub-id></mixed-citation>
+      </ref>
+      <ref id="R26">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><name><surname>Beura</surname><given-names>LK</given-names></name>, <name><surname>Mitchell</surname><given-names>JS</given-names></name>, <name><surname>Thompson</surname><given-names>EA</given-names></name>, <name><surname>Schenkel</surname><given-names>JM</given-names></name>, <name><surname>Mohammed</surname><given-names>J</given-names></name>, <name><surname>Wijeyesinghe</surname><given-names>S</given-names></name>, <name><surname>Fonseca</surname><given-names>R</given-names></name>, <name><surname>Burbach</surname><given-names>BJ</given-names></name>, <name><surname>Hickman</surname><given-names>HD</given-names></name>, <name><surname>Vezys</surname><given-names>V</given-names></name>, <name><surname>Fife</surname><given-names>BT</given-names></name> &amp; <name><surname>Masopust</surname><given-names>D</given-names></name>. <article-title>Intravital mucosal imaging of CD8+ resident memory T cells shows tissue-autonomous recall responses that amplify secondary memory</article-title>. <source>Nat. Immunol</source>
+<volume>19</volume>, <fpage>173</fpage>&#x2013;<lpage>182</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29311694</pub-id></mixed-citation>
+      </ref>
+      <ref id="R27">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><name><surname>Schenkel</surname><given-names>JM</given-names></name>, <name><surname>Fraser</surname><given-names>KA</given-names></name>, <name><surname>Vezys</surname><given-names>V</given-names></name>. &amp; <name><surname>Masopust</surname><given-names>D</given-names></name>. <article-title>Sensing and alarm function of resident memory CD8<sup>+</sup> T cells</article-title>. <source>Nat. Immunol</source>
+<volume>14</volume>, <fpage>509</fpage>&#x2013;<lpage>13</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23542740</pub-id></mixed-citation>
+      </ref>
+      <ref id="R28">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><name><surname>Beura</surname><given-names>LK</given-names></name>, <name><surname>Wijeyesinghe</surname><given-names>S</given-names></name>, <name><surname>Thompson</surname><given-names>EA</given-names></name>, <name><surname>Macchietto</surname><given-names>MG</given-names></name>, <name><surname>Rosato</surname><given-names>PC</given-names></name>, <name><surname>Pierson</surname><given-names>MJ</given-names></name>, <name><surname>Schenkel</surname><given-names>JM</given-names></name>, <name><surname>Mitchell</surname><given-names>JS</given-names></name>, <name><surname>Vezys</surname><given-names>V</given-names></name>, <name><surname>Fife</surname><given-names>BT</given-names></name>, <name><surname>Shen</surname><given-names>S</given-names></name>. &amp; <name><surname>Masopust</surname><given-names>D</given-names></name>. <article-title>T Cells in Nonlymphoid Tissues Give Rise to Lymph-Node-Resident Memory T Cells</article-title>. <source>Immunity</source>
+<volume>48</volume>, <comment>327&#x2013;338.e5</comment> (<year>2018</year>).</mixed-citation>
+      </ref>
+      <ref id="R29">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><name><surname>Steinert</surname><given-names>EM</given-names></name>, <name><surname>Schenkel</surname><given-names>JM</given-names></name>, <name><surname>Fraser</surname><given-names>KA</given-names></name>, <name><surname>Beura</surname><given-names>LK</given-names></name>, <name><surname>Manlove</surname><given-names>LS</given-names></name>, <name><surname>Igy&#xE1;rt&#xF3;</surname><given-names>BZ</given-names></name>, <name><surname>Southern</surname><given-names>PJ</given-names></name> &amp; <name><surname>Masopust</surname><given-names>D</given-names></name>. <article-title>Quantifying Memory CD8 T Cells Reveals Regionalization of Immunosurveillance</article-title>. <source>Cell</source>
+<volume>161</volume>, <fpage>737</fpage>&#x2013;<lpage>49</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25957682</pub-id></mixed-citation>
+      </ref>
+      <ref id="R30">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><name><surname>Brinkmann</surname><given-names>V</given-names></name>, <name><surname>Cyster</surname><given-names>JG</given-names></name> &amp; <name><surname>Hla</surname><given-names>T</given-names></name>. <article-title>FTY720: Sphingosine 1-phosphate receptor-1 in the control of lymphocyte egress and endothelial barrier function</article-title>. <source>American Journal of Transplantation</source>
+<volume>4</volume>, <fpage>1019</fpage>&#x2013;<lpage>1025</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15196057</pub-id></mixed-citation>
+      </ref>
+      <ref id="R31">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><name><surname>Schenkel</surname><given-names>JM</given-names></name>, <name><surname>Fraser</surname><given-names>KA</given-names></name>, <name><surname>Beura</surname><given-names>LK</given-names></name>, <name><surname>Pauken</surname><given-names>KE</given-names></name>, <name><surname>Vezys</surname><given-names>V</given-names></name>. &amp; <name><surname>Masopust</surname><given-names>D</given-names></name>. <article-title>Resident memory CD8 T cells trigger protective innate and adaptive immune responses</article-title>. <source>Science</source>
+<volume>346</volume>, <fpage>98</fpage>&#x2013;<lpage>101</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25170049</pub-id></mixed-citation>
+      </ref>
+      <ref id="R32">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><name><surname>Masopust</surname><given-names>D</given-names></name>, <name><surname>Vezys</surname><given-names>V</given-names></name>, <name><surname>Wherry</surname><given-names>EJ</given-names></name>, <name><surname>Barber</surname><given-names>DL</given-names></name> &amp; <name><surname>Ahmed</surname><given-names>R</given-names></name>. <article-title>Cutting edge: gut microenvironment promotes differentiation of a unique memory CD8 T cell population</article-title>. <source>J. Immunol</source>
+<volume>176</volume>, <fpage>2079</fpage>&#x2013;<lpage>83</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16455963</pub-id></mixed-citation>
+      </ref>
+      <ref id="R33">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><name><surname>Watanabe</surname><given-names>R</given-names></name>, <name><surname>Gehad</surname><given-names>A</given-names></name>, <name><surname>Yang</surname><given-names>C</given-names></name>, <name><surname>Scott</surname><given-names>LL</given-names></name>, <name><surname>Teague</surname><given-names>JE</given-names></name>, <name><surname>Schlapbach</surname><given-names>C</given-names></name>, <name><surname>Elco</surname><given-names>CP</given-names></name>, <name><surname>Huang</surname><given-names>V</given-names></name>, <name><surname>Matos</surname><given-names>TR</given-names></name>, <name><surname>Kupper</surname><given-names>TS</given-names></name> &amp; <name><surname>Clark</surname><given-names>RA</given-names></name>
+<article-title>Human skin is protected by four functionally and phenotypically discrete populations of resident and recirculating memory T cells</article-title>. <source>Sci. Transl. Med</source>
+<volume>7</volume>, <comment>279ra39</comment> (<year>2015</year>).</mixed-citation>
+      </ref>
+      <ref id="R34">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><name><surname>Wherry</surname><given-names>EJ</given-names></name>, <name><surname>Blattman</surname><given-names>JN</given-names></name>, <name><surname>Murali-Krishna</surname><given-names>K</given-names></name>, <name><surname>van der Most</surname><given-names>R</given-names></name>. &amp; <name><surname>Ahmed</surname><given-names>R</given-names></name>. <article-title>Viral persistence alters CD8 T-cell immunodominance and tissue distribution and results in distinct stages of functional impairment</article-title>. <source>J. Virol</source>
+<volume>77</volume>, <fpage>4911</fpage>&#x2013;<lpage>27</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12663797</pub-id></mixed-citation>
+      </ref>
+      <ref id="R35">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><name><surname>Mackay</surname><given-names>LK</given-names></name>
+<etal/>
+<article-title>Hobit and Blimp1 instruct a universal transcriptional program of tissue residency in lymphocytes</article-title>. <source>Science</source>
+<volume>352</volume>, <fpage>459</fpage>&#x2013;<lpage>63</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27102484</pub-id></mixed-citation>
+      </ref>
+      <ref id="R36">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><name><surname>Kersh</surname><given-names>EN</given-names></name>, <name><surname>Fitzpatrick</surname><given-names>DR</given-names></name>, <name><surname>Murali-Krishna</surname><given-names>K</given-names></name>, <name><surname>Shires</surname><given-names>J</given-names></name>, <name><surname>Speck</surname><given-names>SH</given-names></name>, <name><surname>Boss</surname><given-names>JM</given-names></name> &amp; <name><surname>Ahmed</surname><given-names>R</given-names></name>. <article-title>Rapid demethylation of the IFN-gamma gene occurs in memory but not naive CD8 T cells</article-title>. <source>J. Immunol</source>
+<volume>176</volume>, <fpage>4083</fpage>&#x2013;<lpage>93</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16547244</pub-id></mixed-citation>
+      </ref>
+      <ref id="R37">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><name><surname>Malta</surname><given-names>TM</given-names></name>
+<etal/>
+<article-title>Machine Learning Identifies Stemness Features Associated with Oncogenic Dedifferentiation</article-title>. <source>Cell</source>
+<volume>173</volume>, <comment>338&#x2013;354.e15</comment> (<year>2018</year>).</mixed-citation>
+      </ref>
+      <ref id="R38">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><name><surname>Mackay</surname><given-names>LK</given-names></name>, <name><surname>Rahimpour</surname><given-names>A</given-names></name>, <name><surname>Ma</surname><given-names>JZ</given-names></name>, <name><surname>Collins</surname><given-names>N</given-names></name>, <name><surname>Stock</surname><given-names>AT</given-names></name>, <name><surname>Hafon</surname><given-names>M-L</given-names></name>, <name><surname>Vega-Ramos</surname><given-names>J</given-names></name>, <name><surname>Lauzurica</surname><given-names>P</given-names></name>, <name><surname>Mueller</surname><given-names>SN</given-names></name>, <name><surname>Stefanovic</surname><given-names>T</given-names></name>, <name><surname>Tscharke</surname><given-names>DC</given-names></name>, <name><surname>Heath</surname><given-names>WR</given-names></name>, <name><surname>Inouye</surname><given-names>M</given-names></name>, <name><surname>Carbone</surname><given-names>FR</given-names></name> &amp; <name><surname>Gebhardt</surname><given-names>T</given-names></name>. <article-title>The developmental pathway for CD103+ CD8+ tissue-resident memory T cells of skin</article-title>. <source>Nat. Immunol</source>
+<volume>14</volume>, <fpage>1294</fpage>&#x2013;<lpage>1301</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24162776</pub-id></mixed-citation>
+      </ref>
+      <ref id="R39">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><name><surname>Sheridan</surname><given-names>BS</given-names></name>, <name><surname>Pham</surname><given-names>Q-M</given-names></name>, <name><surname>Lee</surname><given-names>Y-T</given-names></name>, <name><surname>Cauley</surname><given-names>LS</given-names></name>, <name><surname>Puddington</surname><given-names>L</given-names></name>. &amp; <name><surname>Lefran&#xE7;ois</surname><given-names>L</given-names></name>. <article-title>Oral Infection Drives a Distinct Population of Intestinal Resident Memory CD8+ T Cells with Enhanced Protective Function</article-title>. <source>Immunity</source>
+<volume>40</volume>, <fpage>747</fpage>&#x2013;<lpage>757</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24792910</pub-id></mixed-citation>
+      </ref>
+      <ref id="R40">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><name><surname>Herndler-Brandstetter</surname><given-names>D</given-names></name>, <name><surname>Ishigame</surname><given-names>H</given-names></name>, <name><surname>Shinnakasu</surname><given-names>R</given-names></name>, <name><surname>Plajer</surname><given-names>V</given-names></name>, <name><surname>Stecher</surname><given-names>C</given-names></name>, <name><surname>Zhao</surname><given-names>J</given-names></name>, <name><surname>Lietzenmayer</surname><given-names>M</given-names></name>, <name><surname>Kroehling</surname><given-names>L</given-names></name>, <name><surname>Takumi</surname><given-names>A</given-names></name>, <name><surname>Kometani</surname><given-names>K</given-names></name>, <name><surname>Inoue</surname><given-names>T</given-names></name>, <name><surname>Kluger</surname><given-names>Y</given-names></name>, <name><surname>Kaech</surname><given-names>SM</given-names></name>, <name><surname>Kurosaki</surname><given-names>T</given-names></name>, <name><surname>Okada</surname><given-names>T</given-names></name>. &amp; <name><surname>Flavell</surname><given-names>RA</given-names></name>
+<article-title>KLRG1+ Effector CD8+ T Cells Lose KLRG1, Differentiate into All Memory T Cell Lineages, and Convey Enhanced Protective Immunity</article-title>. <source>Immunity</source>
+<volume>48</volume>, <comment>716&#x2013;729.e8</comment> (<year>2018</year>).</mixed-citation>
+      </ref>
+      <ref id="R41">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><name><surname>Hofmann</surname><given-names>M</given-names></name>. &amp; <name><surname>Pircher</surname><given-names>H</given-names></name>. <article-title>E-cadherin promotes accumulation of a unique memory CD8 T-cell population in murine salivary glands</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>
+<volume>108</volume>, <fpage>16741</fpage>&#x2013;<lpage>6</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21930933</pub-id></mixed-citation>
+      </ref>
+      <ref id="R42">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><name><surname>Teijaro</surname><given-names>JR</given-names></name>, <name><surname>Turner</surname><given-names>D</given-names></name>, <name><surname>Pham</surname><given-names>Q</given-names></name>, <name><surname>Wherry</surname><given-names>EJ</given-names></name>, <name><surname>Lefran&#xE7;ois</surname><given-names>L</given-names></name>. &amp; <name><surname>Farber</surname><given-names>DL</given-names></name>
+<article-title>Cutting edge: Tissue-retentive lung memory CD4 T cells mediate optimal protection to respiratory virus infection</article-title>. <source>J. Immunol</source>
+<volume>187</volume>, <fpage>5510</fpage>&#x2013;<lpage>4</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">22058417</pub-id></mixed-citation>
+      </ref>
+      <ref id="R43">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><name><surname>Skon</surname><given-names>CN</given-names></name>, <name><surname>Lee</surname><given-names>J-Y</given-names></name>, <name><surname>Anderson</surname><given-names>KG</given-names></name>, <name><surname>Masopust</surname><given-names>D</given-names></name>, <name><surname>Hogquist</surname><given-names>KA</given-names></name> &amp; <name><surname>Jameson</surname><given-names>SC</given-names></name>
+<article-title>Transcriptional downregulation of S1pr1 is required for the establishment of resident memory CD8+ T cells</article-title>. <source>Nat. Immunol</source>
+<volume>14</volume>, <fpage>1285</fpage>&#x2013;<lpage>1293</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24162775</pub-id></mixed-citation>
+      </ref>
+      <ref id="R44">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><name><surname>Cahill</surname><given-names>RNP</given-names></name>, <name><surname>Poskitt</surname><given-names>DC</given-names></name>, <name><surname>Frost</surname><given-names>H</given-names></name>. &amp; <name><surname>Trnka</surname><given-names>Z</given-names></name>. <article-title>Two distinct pools of recirculating T lymphocytes: Migratory characteristics of nodal and intestinal T lymphocytes</article-title>. <source>J. Exp. Med</source>
+<volume>145</volume>, <fpage>420</fpage>&#x2013;<lpage>428</lpage> (<year>1977</year>).<pub-id pub-id-type="pmid">299882</pub-id></mixed-citation>
+      </ref>
+      <ref id="R45">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><name><surname>Mackay</surname><given-names>CR</given-names></name>, <name><surname>Marston</surname><given-names>WL</given-names></name> &amp; <name><surname>Dudler</surname><given-names>L</given-names></name>. <article-title>Naive and memory t cells show distinct pathways of lymphocyte recirculation</article-title>. <source>J. Exp. Med</source>
+<volume>171</volume>, <fpage>801</fpage>&#x2013;<lpage>817</lpage> (<year>1990</year>).<pub-id pub-id-type="pmid">2307933</pub-id></mixed-citation>
+      </ref>
+      <ref id="R46">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><name><surname>Collins</surname><given-names>N</given-names></name>, <name><surname>Jiang</surname><given-names>X</given-names></name>, <name><surname>Zaid</surname><given-names>A</given-names></name>, <name><surname>Macleod</surname><given-names>BL</given-names></name>, <name><surname>Li</surname><given-names>J</given-names></name>, <name><surname>Park</surname><given-names>CO</given-names></name>, <name><surname>Haque</surname><given-names>A</given-names></name>, <name><surname>Bedoui</surname><given-names>S</given-names></name>, <name><surname>Heath</surname><given-names>WR</given-names></name>, <name><surname>Mueller</surname><given-names>SN</given-names></name>, <name><surname>Kupper</surname><given-names>TS</given-names></name>, <name><surname>Gebhardt</surname><given-names>T</given-names></name>. &amp; <name><surname>Carbone</surname><given-names>FR</given-names></name>
+<article-title>Skin CD4+ memory T cells exhibit combined cluster-mediated retention and equilibration with the circulation</article-title>. <source>Nat. Commun</source>
+<volume>7</volume>, <comment>11514</comment> (<year>2016</year>).</mixed-citation>
+      </ref>
+      <ref id="R47">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><name><surname>Gebhardt</surname><given-names>T</given-names></name>, <name><surname>Whitney</surname><given-names>PG</given-names></name>, <name><surname>Zaid</surname><given-names>A</given-names></name>, <name><surname>MacKay</surname><given-names>LK</given-names></name>, <name><surname>Brooks</surname><given-names>AG</given-names></name>, <name><surname>Heath</surname><given-names>WR</given-names></name>, <name><surname>Carbone</surname><given-names>FR</given-names></name> &amp; <name><surname>Mueller</surname><given-names>SN</given-names></name>
+<article-title>Different patterns of peripheral migration by memory CD4+ and CD8+ T cells</article-title>. <source>Nature</source>
+<volume>477</volume>, <fpage>216</fpage>&#x2013;<lpage>219</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21841802</pub-id></mixed-citation>
+      </ref>
+      <ref id="R48">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><name><surname>Klicznik</surname><given-names>MM</given-names></name>, <name><surname>Morawski</surname><given-names>PA</given-names></name>, <name><surname>H&#xF6;llbacher</surname><given-names>B</given-names></name>, <name><surname>Varkhande</surname><given-names>SR</given-names></name>, <name><surname>Motley</surname><given-names>SJ</given-names></name>, <name><surname>Kuri-Cervantes</surname><given-names>L</given-names></name>, <name><surname>Goodwin</surname><given-names>E</given-names></name>, <name><surname>Rosenblum</surname><given-names>MD</given-names></name>, <name><surname>Long</surname><given-names>SA</given-names></name>, <name><surname>Brachtl</surname><given-names>G</given-names></name>, <name><surname>Duhen</surname><given-names>T</given-names></name>, <name><surname>Betts</surname><given-names>MR</given-names></name>, <name><surname>Campbell</surname><given-names>DJ</given-names></name> &amp; <name><surname>Gratz</surname><given-names>IK</given-names></name>
+<article-title>Human CD4+CD103+ cutaneous resident memory T cells are found in the circulation of healthy individuals</article-title>. <source>Sci. Immunol</source>
+<volume>4</volume>, <comment>eaav8995</comment> (<year>2019</year>).</mixed-citation>
+      </ref>
+      <ref id="R49">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><name><surname>Diani</surname><given-names>M</given-names></name>, <name><surname>Casciano</surname><given-names>F</given-names></name>, <name><surname>Marongiu</surname><given-names>L</given-names></name>, <name><surname>Longhi</surname><given-names>M</given-names></name>, <name><surname>Altomare</surname><given-names>A</given-names></name>, <name><surname>Pigatto</surname><given-names>PD</given-names></name>, <name><surname>Secchiero</surname><given-names>P</given-names></name>, <name><surname>Gambari</surname><given-names>R</given-names></name>, <name><surname>Banfi</surname><given-names>G</given-names></name>, <name><surname>Manfredi</surname><given-names>AA</given-names></name>, <name><surname>Altomare</surname><given-names>G</given-names></name>, <name><surname>Granucci</surname><given-names>F</given-names></name>. &amp; <name><surname>Reali</surname><given-names>E</given-names></name>. <article-title>Increased frequency of activated CD8+ T cell effectors in patients with psoriatic arthritis</article-title>. <source>Sci. Rep</source>
+<volume>9</volume>, <comment>10870</comment> (<year>2019</year>).</mixed-citation>
+      </ref>
+      <ref id="R50">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><name><surname>Han</surname><given-names>A</given-names></name>, <name><surname>Newell</surname><given-names>EW</given-names></name>, <name><surname>Glanville</surname><given-names>J</given-names></name>, <name><surname>Fernandez-Becker</surname><given-names>N</given-names></name>, <name><surname>Khosla</surname><given-names>C</given-names></name>, <name><surname>Chien</surname><given-names>YH</given-names></name> &amp; <name><surname>Davis</surname><given-names>MM</given-names></name>
+<article-title>Dietary gluten triggers concomitant activation of CD4+ and CD8+ &#x3B1;&#x3B2; T cells and &#x3B3;&#x3BB; T cells in celiac disease</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A</source>
+<volume>110</volume>, <comment>13073&#x2013;13078</comment> (<year>2013</year>).</mixed-citation>
+      </ref>
+      <ref id="R51">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><name><surname>Anderson</surname><given-names>KG</given-names></name>, <name><surname>Mayer-Barber</surname><given-names>K</given-names></name>, <name><surname>Sung</surname><given-names>H</given-names></name>, <name><surname>Beura</surname><given-names>L</given-names></name>, <name><surname>James</surname><given-names>BR</given-names></name>, <name><surname>Taylor</surname><given-names>JJ</given-names></name>, <name><surname>Qunaj</surname><given-names>L</given-names></name>, <name><surname>Griffith</surname><given-names>TS</given-names></name>, <name><surname>Vezys</surname><given-names>V</given-names></name>, <name><surname>Barber</surname><given-names>DL</given-names></name> &amp; <name><surname>Masopust</surname><given-names>D</given-names></name>. <article-title>Intravascular staining for discrimination of vascular and tissue leukocytes</article-title>. <source>Nat. Protoc</source>
+<volume>9</volume>, <fpage>209</fpage>&#x2013;<lpage>222</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24385150</pub-id></mixed-citation>
+      </ref>
+      <ref id="R52">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><name><surname>Thompson</surname><given-names>EA</given-names></name>, <name><surname>Beura</surname><given-names>LK</given-names></name>, <name><surname>Nelson</surname><given-names>CE</given-names></name>, <name><surname>Anderson</surname><given-names>KG</given-names></name> &amp; <name><surname>Vezys</surname><given-names>V</given-names></name>. <article-title>Shortened Intervals during Heterologous Boosting Preserve Memory CD8 T Cell Function but Compromise Longevity</article-title>. <source>J. Immunol</source>
+<volume>196</volume>, <fpage>3054</fpage>&#x2013;<lpage>63</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26903479</pub-id></mixed-citation>
+      </ref>
+      <ref id="R53">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><name><surname>Silva</surname><given-names>KA</given-names></name> &amp; <name><surname>Sundberg</surname><given-names>JP</given-names></name>
+<article-title>Surgical methods for full-thickness skin grafts to induce alopecia areata in C3H/HeJ mice</article-title>. <source>Comp. Med</source>
+<volume>63</volume>, <fpage>392</fpage>&#x2013;<lpage>7</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24210015</pub-id></mixed-citation>
+      </ref>
+      <ref id="R54">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><name><surname>Trinh</surname><given-names>BN</given-names></name>, <name><surname>Long</surname><given-names>TI</given-names></name> &amp; <name><surname>Laird</surname><given-names>PW</given-names></name>
+<article-title>DNA Methylation Analysis by MethyLight Technology</article-title>. <source>Methods</source>
+<volume>25</volume>, <fpage>456</fpage>&#x2013;<lpage>462</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11846615</pub-id></mixed-citation>
+      </ref>
+      <ref id="R55">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><name><surname>Ghoneim</surname><given-names>HE</given-names></name>, <name><surname>Fan</surname><given-names>Y</given-names></name>, <name><surname>Moustaki</surname><given-names>A</given-names></name>, <name><surname>Abdelsamed</surname><given-names>HA</given-names></name>, <name><surname>Dash</surname><given-names>P</given-names></name>, <name><surname>Dogra</surname><given-names>P</given-names></name>, <name><surname>Carter</surname><given-names>R</given-names></name>, <name><surname>Awad</surname><given-names>W</given-names></name>, <name><surname>Neale</surname><given-names>G</given-names></name>, <name><surname>Thomas</surname><given-names>PG</given-names></name> &amp; <name><surname>Youngblood</surname><given-names>B</given-names></name>. <article-title>De Novo Epigenetic Programs Inhibit PD-1 Blockade-Mediated T Cell Rejuvenation</article-title>. <source>Cell</source>
+<volume>170</volume>, <comment>142&#x2013;157.e19</comment> (<year>2017</year>).</mixed-citation>
+      </ref>
+      <ref id="R56">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><name><surname>Sokolov</surname><given-names>A</given-names></name>, <name><surname>Carlin</surname><given-names>DE</given-names></name>, <name><surname>Paull</surname><given-names>EO</given-names></name>, <name><surname>Baertsch</surname><given-names>R</given-names></name>. &amp; <name><surname>Stuart</surname><given-names>JM</given-names></name>
+<article-title>Pathway-Based Genomics Prediction using Generalized Elastic Net</article-title>. <source>PLOS Comput. Biol</source>
+<volume>12</volume>, <comment>e1004790</comment> (<year>2016</year>).</mixed-citation>
+      </ref>
+      <ref id="R57">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><name><surname>Love</surname><given-names>MI</given-names></name>, <name><surname>Huber</surname><given-names>W</given-names></name>. &amp; <name><surname>Anders</surname><given-names>S</given-names></name>. <article-title>Moderated estimation of fold changes and dispersion fro RNA-seq data with Deseq2</article-title>. <source>Genome Biol</source>. <volume>15</volume>, <fpage>550</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25516281</pub-id></mixed-citation>
+      </ref>
+      <ref id="R58">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><name><surname>Pallett</surname><given-names>LJ</given-names></name>, <name><surname>Davies</surname><given-names>J</given-names></name>, <name><surname>Colbeck</surname><given-names>EJ</given-names></name>, <name><surname>Robertson</surname><given-names>F</given-names></name>, <name><surname>Hansi</surname><given-names>N</given-names></name>, <name><surname>Easom</surname><given-names>NJW</given-names></name>, <name><surname>Burton</surname><given-names>AR</given-names></name>, <name><surname>Stegmann</surname><given-names>KA</given-names></name>, <name><surname>Schurich</surname><given-names>A</given-names></name>, <name><surname>Swadling</surname><given-names>L</given-names></name>, <name><surname>Gill</surname><given-names>US</given-names></name>, <name><surname>Male</surname><given-names>V</given-names></name>, <name><surname>Luong</surname><given-names>T</given-names></name>, <name><surname>Gander</surname><given-names>A</given-names></name>, <name><surname>Davidson</surname><given-names>BR</given-names></name>, <name><surname>Kennedy</surname><given-names>PTF</given-names></name> &amp; <name><surname>Maini</surname><given-names>MK</given-names></name>
+<article-title>IL-2high tissue-resident T cells in the human liver: Sentinels for hepatotropic infection</article-title>. <source>J. Exp. Med</source>
+<volume>214</volume>, <fpage>1567</fpage>&#x2013;<lpage>1580</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28526759</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Fig 1.</label>
+      <caption>
+        <title>Local reactivation of T<sub>RM</sub> precipitates egress to circulation.</title>
+        <p id="P47"><bold>a.</bold> Experimental design. <bold>b.</bold> Pooled draining and non-draining SLOs were used to phenotype the graft-derived CD90.1<sup>+</sup> OT-I T cells post reactivation. Gated on live CD90.1<sup>+</sup>CD8&#x3B1;<sup>+</sup> T cells <bold>c&amp;d.</bold> Experimental design and representative flow plots of H-2K<sup>b</sup>/SIINFEKL tetramer<sup>+</sup> cells in the blood of mice after indicated days post-tattooing with SIINFEKL. Flow plots are gated on live CD8&#x3B1;<sup>+</sup> cells (top row) and H-2K<sup>b</sup>/SIINFEKL tetramer <sup>+</sup>, CD8&#x3B1;<sup>+</sup> T cells (middle row). Expression of CD103, CD49a, Ly6C, KLRG1 and CD62L was compared between CD45.1<sup>+</sup> (circulating memory derived, orange) and CD90.1<sup>+</sup> (resident memory derived, blue) cells 10 days post-recall in the bottom row. <bold>e.</bold> Bar graph depicting frequency of CD103<sup>+</sup> and Ly6C<sup>lo</sup> cells between CD90.1<sup>+</sup> and CD45.1<sup>+</sup> cells. Bars represent mean &#xB1; s.e.m and symbols represent individual animals. Two-tailed Mann-Whitney U test. <bold>f&amp;g.</bold> Experimental design and representative flow plots of H-2D<sup>b</sup>/gp33 tetramer<sup>+</sup> cells in the blood of mice after indicated days post t.c. challenge. Gated on live CD8&#x3B1;<sup>+</sup> T cells (top row) and live H-2D<sup>b</sup>/gp33 tetramer<sup>+</sup>, CD8&#x3B1;<sup>+</sup> T cells (middle row). Superimposed histograms of CD62L, Ly6C, and CD44 expression on CD90.1<sup>+</sup> (blue) and CD45.1<sup>+</sup> cells (orange) within the H-2D<sup>b</sup>/gp33<sup>+</sup> specific population from blood 10 days post challenge. <bold>b-g.</bold> n=5 mice per experiment and one experiment shown of 3 independent experiments.</p>
+      </caption>
+      <graphic xlink:href="nihms-1550331-f0001"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Fig 2.</label>
+      <caption>
+        <title>Epigenetic profiling of T<sub>RM</sub> reveals memory state with potential developmental plasticity.</title>
+        <p id="P48"><bold>a.</bold> Representative phenotype of memory CD90.1<sup>+</sup> CD8+ P14 cells isolated from the blood (PBL), epithelium (SI IEL) or lamina propria (SI LP) of the small intestine, salivary gland, or female reproductive tract (FRT) of LCMV immune chimeras 90 days after infection. Representative data of n=10 from two independent experiments. <bold>b.</bold> Principal Component Analysis (PCA) of previously published CD8<sup>+</sup> naive, T<sub>CM</sub>, T<sub>EM</sub>, and gut T<sub>RM</sub> transcriptome<sup><xref rid="R35" ref-type="bibr">35</xref></sup>. n=2 per group. <bold>c.</bold> CD8<sup>+</sup> CD90.1<sup>+</sup> P14 cells were isolated 4, 8, or 90 days after LCMV infection, and naive P14 cells were used for comparison. Spleen day 4 and 8 effector populations were sorted into CD127<sup>hi</sup>KLRG1<sup>lo</sup> (memory precursor, MP) or CD127<sup>lo</sup>KLRG1<sup>hi</sup> (terminal effector, TE) populations. Memory populations were sorted into T<sub>CM</sub> (CD44<sup>+</sup>CD127<sup>+</sup>CD62L<sup>+</sup>, spleen), T<sub>EM</sub> (CD44<sup>+</sup>CD127<sup>+</sup>CD62L<sup>-</sup>, spleen), T<sub>RM</sub> (CD62L<sup>-</sup>CD103<sup>+</sup>CD69<sup>+</sup>Ly6C<sup>-</sup>, SI IEL), and naive (CD44<sup>-</sup>CD127<sup>-</sup>CD62L<sup>+</sup>, spleen). Whole genome bisulfite sequencing was performed to determine allelic frequency of cytosine methylation. Day 4 and day 8 effector P14 subset methylation data were obtained from a previously published study<sup><xref rid="R13" ref-type="bibr">13</xref></sup>. PCA of the top 3000 variably methylated CpGs in CD8<sup>+</sup> naive, day 4 and day 8 MP and TE, T<sub>CM</sub>, T<sub>EM</sub> and T<sub>RM</sub>, each dot represents one sample from 50,000 cells. <bold>d.</bold> Hierarchical summary graph of CD8<sup>+</sup> T cell subset differentiation potential derived from a DNA methylation-based T cell multipotency index. CpG sites were identified from a machine learning algorithm using naive and exhausted gp33-specific CD8 T cells as a training data set. Plasticity indices were derived from the methylation status of 598 CpG sites. Each bar represents an individual sample.</p>
+      </caption>
+      <graphic xlink:href="nihms-1550331-f0002"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Fig 3.</label>
+      <caption>
+        <title>Transdifferentiation of T<sub>RM</sub> into circulating memory T cell subsets.</title>
+        <p id="P49">CD45.1<sup>+</sup> P14 cells were isolated from LCMV immune chimeras 90 days after LCMV infection and sorted into T<sub>CM</sub> (CD8&#x3B1;<sup>+</sup>CD45.1<sup>+</sup>CD44<sup>+</sup>CD127<sup>+</sup>CD62L<sup>+</sup>, isolated from pooled lymph nodes), T<sub>EM</sub> (CD8&#x3B1;<sup>+</sup>CD45.1<sup>+</sup>CD44<sup>+</sup>CD127<sup>+</sup>CD62L<sup>-</sup>, isolated from spleen), and T<sub>RM</sub> (CD8&#x3B1;<sup>+</sup>CD45.1<sup>+</sup>CD62L<sup>-</sup>CD103<sup>+</sup>CD69<sup>+</sup>Ly6C<sup>-</sup>, isolated from SI IEL). 20,000 T<sub>CM</sub>, T<sub>EM</sub>, T<sub>RM</sub>, and naive P14 cells were transferred into separate C57BL/6J recipients, which were subsequently infected with LCMV Armstrong. The recall response was monitored in blood until 100 days post infection, after which mice were sacrificed and tissues were analyzed. <bold>a</bold>. Post sort analysis of T<sub>RM</sub> cells and experimental design. Number (<bold>b)</bold> and percent of CD62L<sup>+</sup> (<bold>c</bold>) of each transferred P14 CD8<sup>+</sup> T cell subset in blood over time. <bold>d.</bold> Representative FACS analysis of CD127, CD62L and Ly6C expression on transferred cells in blood or mesenteric LN 100 days after recall. <bold>e.</bold> Representative histograms of CD103, CD69, CD127 and Ly6C expression on transferred cells in spleen 100 days post transfer. <bold>f.</bold> Longitudinal Ly6C and <bold>g.</bold> CCR9 expression and representative histograms on P14 CD8<sup>+</sup> T cells. One-way ANOVA with Tukey&#x2019;s multiple comparison test. <bold>b, f.</bold> Symbols represent mean &#xB1; s.e.m. <bold>c.</bold> Symbols represent mean with linear regression line. <bold>g.</bold> Bars represent mean &#xB1; s.e.m. and symbols represent individual mice. <bold>b-g.</bold> n=4 mice per group per experiment and data are representative of 1 of 4 independent experiments with similar results.</p>
+      </caption>
+      <graphic xlink:href="nihms-1550331-f0003"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Fig 4.</label>
+      <caption>
+        <title>Developmental plasticity and tissue redistribution of T<sub>CM</sub> and T<sub>RM</sub></title>
+        <p id="P50"><bold>. a.</bold> Recovery of P14 cells from transferred T<sub>CM</sub>, T<sub>RM</sub> and naive (as in <xref rid="F3" ref-type="fig">Fig. 3</xref>) in spleen, SI IEL, SI LP, salivary gland (SG) and female reproductive tract (FRT) 100 days after recall. <bold>b.</bold> Ratio of P14 cells in spleen to either SI IEL, SI LP, SG and FRT. <bold>c.</bold> CD69, CD103, Ly6C and Granzyme B expression on transferred cells recovered from SI epithelium after 100 days after recall. Gated on i.v.<sup>-</sup>, CD8&#x3B2;<sup>+</sup>, CD44<sup>+</sup>, CD45.1<sup>+</sup>, H-2D<sup>b</sup>/gp33 tetramer<sup>+</sup>. <bold>d</bold>. Representative immunofluorescence images of SI. Scale bars, 50 microns. <bold>a-c</bold>. One-way ANOVA with Tukey&#x2019;s multiple comparison test. Bars represent mean &#xB1; s.e.m. and symbols represent individual mice. <bold>a-d.</bold> n=5 mice per group per experiment and one shown of four independent experiments with similar results.</p>
+      </caption>
+      <graphic xlink:href="nihms-1550331-f0004"/>
+    </fig>
+    <fig id="F5" orientation="portrait" position="float">
+      <label>Fig 5.</label>
+      <caption>
+        <title>Ex-T<sub>RM</sub> remain epigenetically poised for migration and T<sub>RM</sub> re-differentiation.</title>
+        <p id="P51"><bold>a.</bold> 1&#xBA; memory T<sub>CM</sub> from LN and T<sub>RM</sub> from SI IEL were sorted (as in <xref rid="F3" ref-type="fig">Fig. 3</xref>) and transferred to naive recipients, followed by LCMV infection. 100 days later, splenocytes containing 10<sup>5</sup> 2&#xBA; memory P14 were transferred to naive recipients, again followed by LCMV infection. 50 days later, 3&#xBA; memory P14 were analyzed for phenotype and distribution. 1&#xBA; and 2&#xBA; responses were assessed for comparison in <bold>d</bold> and <bold>e</bold>. <bold>b.</bold> 3&#xBA; memory P14 isolated from spleen and SI IEL. Multiple unpaired two-tailed Student&#x2019;s t-test. <bold>c.</bold> Ratio of 3&#xBA; memory P14 isolated from SI IEL to spleen. Unpaired two-tailed Student&#x2019;s t-test. <bold>d, e.</bold> Percentage of CD69<sup>+</sup>CD103<sup>+</sup> 3&#xBA; memory P14 cells and <bold>r</bold>epresentative plots of CD69, CD103 and Ly6C expression on P14 isolated from SI IEL. 3&#xBA; Ex-T<sub>CM</sub> and Ex-T<sub>RM</sub> were compared to 1&#xBA; and 2&#xBA; Ex- T<sub>CM</sub> mucosal memory. Gated on i.v.<sup>-</sup>, CD8&#x3B2;<sup>+</sup>, CD44<sup>+</sup>, CD45.1<sup>+</sup>, H-2D<sup>b</sup>/gp33 tetramer<sup>+</sup>. One-way ANOVA with Tukey&#x2019;s multiple comparison test. <bold>b-e</bold>. Bars represent mean &#xB1; s.e.m. and symbols represent individual mice. n=5 mice per group per experiment and one shown of two independent experiments with similar results.</p>
+      </caption>
+      <graphic xlink:href="nihms-1550331-f0005"/>
+    </fig>
+    <fig id="F6" orientation="portrait" position="float">
+      <label>Fig 6.</label>
+      <caption>
+        <title>Ex-T<sub>RM</sub> are poised to reacquire T<sub>RM</sub> characteristics in response to cytokines.</title>
+        <p id="P52">1&#xBA; memory T<sub>CM</sub> from LN, T<sub>EM</sub> from spleen, and T<sub>RM</sub> from SI epithelium were sorted (as in <xref rid="F3" ref-type="fig">Fig. 3</xref>) and transferred to naive recipients which were subsequently infected with LCMV-Armstrong. 50&#x2013;70 days post infection, splenocytes were isolated and progenies of each cell subtype were stimulated in vitro with IL-15 and TGF&#x3B2; to induce T<sub>RM</sub>-biased differentiation program. IL-2 was included in all cultures. Cells were analyzed after four days in culture. <bold>a.</bold> Representative flow plots and <bold>b.</bold> summary of IL-15, TGF&#x3B2; and IL-2 stimulated cultures and gated on H-2D<sup>b</sup>/gp33 tetramer<sup>+</sup>, CD45.1<sup>+</sup>, CD8&#x3B1;<sup>+</sup> T cells. T<sub>CM</sub>, T<sub>RM</sub> (n=6 technical replicates per group) and T<sub>EM</sub> (n=5 technical replicates) from 3 pooled mice per group are shown from one of two independent experiments with similar results.</p>
+      </caption>
+      <graphic xlink:href="nihms-1550331-f0006"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>
